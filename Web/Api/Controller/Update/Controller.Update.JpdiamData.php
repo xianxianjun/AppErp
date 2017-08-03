@@ -172,6 +172,7 @@ trait UpdateJpdiamData
     public function ToErpUpdateJpdiamStoneData()
     {
         $cpage = intval(I("cpage"));
+
         $cpage = $cpage == 0?1:$cpage;
         $sql = StoneCls::GetUpdatejpdianStone($cpage,2000);
         $Model = new \Think\Model();
