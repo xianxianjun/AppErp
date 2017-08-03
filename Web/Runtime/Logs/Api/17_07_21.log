@@ -1,0 +1,247 @@
+[ 2017-07-21T15:22:45+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=e9884c4435d75a135ce41fb668788827&cpage=1&purity=vvs2&color=h,f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = 'e9884c4435d75a135ce41fb668788827'  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 18 行.
+
+[ 2017-07-21T16:58:43+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0090s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0090s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.407023s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.017001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.425024s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 194 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-21T17:01:21+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0060s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0430s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.231013s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.233014s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.1340s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0490s ]
+SQL: SELECT
+                  a.id,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode,IFNULL(a.carat,'') as Weight
+        ,FORMAT(IFNULL(a.saledollorprice,0.00)*1.007,2) as Price,0.7 as percent,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape,IFNULL(a.color,'') as Color
+        ,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( color in ('h','f')  and  clarity in ('vvs2') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( color in ('h','f')  and  clarity in ('vvs2') ) [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: num D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-21T17:13:46+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0090s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0110s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.100006s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.103006s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0180s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.007,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  a.clarity in ('vvs2') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0110s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  a.clarity in ('vvs2') ) [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: num D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-21T17:15:06+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk&shape=%E5%9C%86%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0190s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0090s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0110s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.111006s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.112006s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0260s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0110s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.007,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  b.`value` in ('圆形')  and  a.clarity in ('vvs2') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0230s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  b.`value` in ('圆形')  and  a.clarity in ('vvs2') ) [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: num D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-21T17:16:33+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk&shape=%E5%9C%86%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0170s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0080s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.085005s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.086005s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.007,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  b.`value` in ('圆形')  and  a.clarity in ('vvs2') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  b.`value` in ('圆形')  and  a.clarity in ('vvs2') ) [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: num D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-21T17:17:50+08:00 ] 192.168.1.240 /api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk&shape=%E5%9C%86%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0060s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.066004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.067004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0160s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.007,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  b.`value` in ('圆形')  and  a.clarity in ('vvs2') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0120s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and  ( a.color in ('h','f')  and  b.`value` in ('圆形')  and  a.clarity in ('vvs2') ) [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: num D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

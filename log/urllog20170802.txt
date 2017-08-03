@@ -1,0 +1,6 @@
+
+http://192.168.1.240:9112/api/Aproxy/modelListPage?QxVersion=1.5&category=18%7C33&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+
+http://192.168.1.240:9112/api/Aproxy/modelListPage?QxVersion=1.5&category=18%7C33&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+
+http://192.168.1.240:9112/api/Aproxy/modelListPage?QxVersion=1.5&category=18%7C33&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad

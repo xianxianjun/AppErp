@@ -1,0 +1,433 @@
+[ 2017-07-27T15:27:19+08:00 ] 192.168.1.240 /api/Aproxy/indexRoundPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.014001s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.012001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.028002s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T15:27:49+08:00 ] 192.168.1.240 /api/Aproxy/indexRoundPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T15:28:09+08:00 ] 192.168.1.240 /api/Aproxy/indexRoundPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T15:28:30+08:00 ] 192.168.1.240 /api/Aproxy/indexRoundPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T15:28:54+08:00 ] 192.168.1.240 /api/Aproxy/indexRoundPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: indexRoundPic D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.076005s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.078005s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-27T15:29:55+08:00 ] 192.168.1.240 /api/Aproxy/IndexPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: IndexPage D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: IndexPage D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: IndexPage D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.003000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T15:53:16+08:00 ] 192.168.1.240 /api/Aproxy/IndexPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: IndexPage D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: IndexPage D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: IndexPage D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.005000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T16:00:20+08:00 ] 192.168.1.240 /api/Aproxy/IndexPageForQxzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexPageForQxzx() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 22 行.
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Index\Controller.index.IndexPage.php 第 50 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTPS D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T16:00:46+08:00 ] 192.168.1.240 /api/Aproxy/IndexPageForQxzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexPageForQxzx() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 22 行.
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Index\Controller.index.IndexPage.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T16:01:04+08:00 ] 192.168.1.240 /api/Aproxy/IndexPageForQxzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: IndexPageForQxzx D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexPageForQxzx() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.IndexProxy.php 第 22 行.
+NOTIC: [2048] Non-static method Api\Controller\IndexController::IndexRoundPic() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Index\Controller.index.IndexPage.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T16:40:26+08:00 ] 192.168.1.240 /api/Aproxy/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.012001s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.015001s ]
+ERR: 非法操作:UpdateUpdateCategoryData
+
+[ 2017-07-27T16:40:35+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-27T16:40:49+08:00 ] 192.168.1.240 /api/Aproxy/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:UpdateUpdateCategoryData
+
+[ 2017-07-27T16:40:52+08:00 ] 192.168.1.240 /api/Aproxy/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Update D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: Update D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: Update D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:Update
+
+[ 2017-07-27T16:41:52+08:00 ] 192.168.1.240 /api/Aproxy/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Update D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: Update D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: Update D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002001s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:Update
+
+[ 2017-07-27T16:43:51+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002001s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-27T16:44:50+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T16:45:16+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.003000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-27T16:51:30+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.010000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.011000s ]
+SQL: TRUNCATE app_model_category_temp [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `app_model_category_temp` [ RunTime:0.0050s ]
+SQL: INSERT INTO `app_model_category_temp` (`title`,`type`) VALUES ('CNC','characteristic'),('畅销','custom'),('辘珠边','technics'),('圆臂','series'),('直臂','inlayarm'),('经典','custom'),('卡地亚','characteristic'),('扭臂','inlayarm'),('喷砂','technics'),('小清新','series'),('拉砂','technics'),('棱形臂','inlayarm'),('天使之吻','characteristic'),('一款三戴','series'),('错臂','inlayarm'),('封底','technics'),('四爪','characteristic'),('心形','series'),('车花','technics'),('皇冠','series'),('六爪','characteristic'),('推荐','custom'),('圆臂','inlayarm'),('2017新品','custom'),('花头','characteristic'),('镂空','technics'),('车花片','technics'),('多围一','characteristic'),('雪花爪','characteristic'),('水滴爪','characteristic'),('迫镶','characteristic'),('两爪','characteristic'),('三爪','characteristic'),('五爪','characteristic'),('八爪','characteristic'),('心形爪','characteristic') [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T16:53:09+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: TRUNCATE app_model_category_temp [ RunTime:0.0060s ]
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+NOTIC: [8] Undefined property: stdClass::$erpid D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 202 行.
+SQL: SHOW COLUMNS FROM `app_model_category_temp` [ RunTime:0.0070s ]
+SQL: INSERT INTO `app_model_category_temp` (`title`,`type`) VALUES ('CNC','characteristic'),('畅销','custom'),('辘珠边','technics'),('圆臂','series'),('直臂','inlayarm'),('经典','custom'),('卡地亚','characteristic'),('扭臂','inlayarm'),('喷砂','technics'),('小清新','series'),('拉砂','technics'),('棱形臂','inlayarm'),('天使之吻','characteristic'),('一款三戴','series'),('错臂','inlayarm'),('封底','technics'),('四爪','characteristic'),('心形','series'),('车花','technics'),('皇冠','series'),('六爪','characteristic'),('推荐','custom'),('圆臂','inlayarm'),('2017新品','custom'),('花头','characteristic'),('镂空','technics'),('车花片','technics'),('多围一','characteristic'),('雪花爪','characteristic'),('水滴爪','characteristic'),('迫镶','characteristic'),('两爪','characteristic'),('三爪','characteristic'),('五爪','characteristic'),('八爪','characteristic'),('心形爪','characteristic') [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T16:53:52+08:00 ] 192.168.1.240 /api/Update/UpdateUpdateCategoryData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: UpdateUpdateCategoryData D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.002000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: TRUNCATE app_model_category_temp [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `app_model_category_temp` [ RunTime:0.0050s ]
+SQL: INSERT INTO `app_model_category_temp` (`erpId`,`title`,`type`) VALUES ('1','CNC','characteristic'),('1','畅销','custom'),('1','辘珠边','technics'),('1','圆臂','series'),('1','直臂','inlayarm'),('2','经典','custom'),('2','卡地亚','characteristic'),('2','扭臂','inlayarm'),('2','喷砂','technics'),('2','小清新','series'),('3','拉砂','technics'),('3','棱形臂','inlayarm'),('3','天使之吻','characteristic'),('3','一款三戴','series'),('4','错臂','inlayarm'),('4','封底','technics'),('4','四爪','characteristic'),('4','心形','series'),('5','车花','technics'),('5','皇冠','series'),('5','六爪','characteristic'),('5','推荐','custom'),('5','圆臂','inlayarm'),('6','2017新品','custom'),('6','花头','characteristic'),('6','镂空','technics'),('7','车花片','technics'),('7','多围一','characteristic'),('8','雪花爪','characteristic'),('9','水滴爪','characteristic'),('10','迫镶','characteristic'),('11','两爪','characteristic'),('12','三爪','characteristic'),('13','五爪','characteristic'),('14','八爪','characteristic'),('15','心形爪','characteristic') [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

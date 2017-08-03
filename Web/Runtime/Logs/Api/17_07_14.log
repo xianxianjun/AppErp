@@ -1,0 +1,243 @@
+[ 2017-07-14T16:51:45+08:00 ] 192.168.1.240 /api/Aproxy/OrderListPage?tokenKey=0e1c1f28eec42cf4818f50f6149dd426
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '0e1c1f28eec42cf4818f50f6149dd426'  [ RunTime:0.0090s ]
+SQL: insert into app_user_active (member_id) VALUE (136) [ RunTime:0.0080s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.517030s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.043002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.561032s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0090s ]
+SQL: SELECT `id`,name as title,`erpTypeId` FROM app_model_category aa WHERE ( exists (select * from app_model_category a where aa.model_category_id = a.id and sign='mode') )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `app_stone_spec` [ RunTime:0.0090s ]
+SQL: SELECT `id`,if(up=0,`down`,CONCAT(down,'-',up)) as title,`down`,`up` FROM `app_stone_spec`  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0080s ]
+SQL: SELECT `id`,name as title FROM `app_stone_purity`  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0080s ]
+SQL: SELECT `id`,name as title FROM `app_stone_color`  [ RunTime:0.0170s ]
+NOTIC: [8] Undefined variable: limit D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelOrderSql.php 第 159 行.
+SQL: SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 136
+                                 AND orderStatus =0 
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 136
+                         AND orderStatus =0 
+                        
+                    ORDER BY
+                        id DESC [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0110s ]
+SQL: SELECT * FROM app_model_order_jewel_stone_log a WHERE ( member_Id=136 AND exists (select * from app_model_main_order_current_detail where a.model_main_order_current_detail_id=id AND orderStatus =0) )  [ RunTime:0.0130s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0060s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0120s ]
+SQL: SELECT `id`,`modelAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SELECT
+                    count(*) as cou
+                FROM
+                    app_model_main_order_current_detail a
+                WHERE
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_product
+                        WHERE
+                            id = a.model_product_id
+                    )
+                 AND orderStatus =0  AND member_id=136 [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+
+[ 2017-07-14T16:51:45+08:00 ] 192.168.1.240 /api/Aproxy/OrderListPage?tokenKey=0e1c1f28eec42cf4818f50f6149dd426
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0400s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '0e1c1f28eec42cf4818f50f6149dd426'  [ RunTime:0.0280s ]
+SQL: insert into app_user_active (member_id) VALUE (136) [ RunTime:0.0130s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.219013s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.220013s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0210s ]
+SQL: SELECT `id`,name as title,`erpTypeId` FROM app_model_category aa WHERE ( exists (select * from app_model_category a where aa.model_category_id = a.id and sign='mode') )  [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `app_stone_spec` [ RunTime:0.0150s ]
+SQL: SELECT `id`,if(up=0,`down`,CONCAT(down,'-',up)) as title,`down`,`up` FROM `app_stone_spec`  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0140s ]
+SQL: SELECT `id`,name as title FROM `app_stone_purity`  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0210s ]
+SQL: SELECT `id`,name as title FROM `app_stone_color`  [ RunTime:0.0580s ]
+NOTIC: [8] Undefined variable: limit D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelOrderSql.php 第 159 行.
+SQL: SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 136
+                                 AND orderStatus =0 
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 136
+                         AND orderStatus =0 
+                        
+                    ORDER BY
+                        id DESC [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0110s ]
+SQL: SELECT * FROM app_model_order_jewel_stone_log a WHERE ( member_Id=136 AND exists (select * from app_model_main_order_current_detail where a.model_main_order_current_detail_id=id AND orderStatus =0) )  [ RunTime:0.0170s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0140s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0130s ]
+SQL: SELECT `id`,`modelAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0100s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0110s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=136) or myMasterAccountMId=136 ) ORDER BY id desc  [ RunTime:0.0450s ]
+NOTIC: [2] file_get_contents(./Web/Runtime/Temp/057ed74dc57db76b420e43bb34a79359.php): failed to open stream: No such file or directory D:\Apache HTTP Server\x64\WebApp\AppErp\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 83 行.
+SQL: SELECT
+                    count(*) as cou
+                FROM
+                    app_model_main_order_current_detail a
+                WHERE
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_product
+                        WHERE
+                            id = a.model_product_id
+                    )
+                 AND orderStatus =0  AND member_id=136 [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

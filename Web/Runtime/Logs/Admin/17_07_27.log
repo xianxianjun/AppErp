@@ -1,0 +1,54 @@
+[ 2017-07-27T09:25:33+08:00 ] 192.168.1.240 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: index D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: index D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: index D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.043002s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.012001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-07-27T09:25:35+08:00 ] 192.168.1.240 /admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: login D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 54 行.
+NOTIC: [8] Undefined index: login D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 60 行.
+NOTIC: [8] Undefined index: login D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Behaviors\PurviewBehavior.class.php 第 66 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.004001s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

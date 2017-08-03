@@ -1,0 +1,817 @@
+[ 2017-07-26T16:54:53+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 18 行.
+
+[ 2017-07-26T16:55:21+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:55:25+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:55:43+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:55:45+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:56:07+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:56:13+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:56:33+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:57:03+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:57:11+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:57:16+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:58:04+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:58:06+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:58:35+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 18 行.
+
+[ 2017-07-26T16:59:00+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:59:06+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=37147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T16:59:12+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T17:00:04+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=c0f2779de2136596d1e6801378e81827
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = 'c0f2779de2136596d1e6801378e81827'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (11) [ RunTime:0.0090s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.120007s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.009000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.129007s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
+
+[ 2017-07-26T17:00:10+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T17:00:10+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=37147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T17:00:12+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-26T17:00:27+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=c0f2779de2136596d1e6801378e81827&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = 'c0f2779de2136596d1e6801378e81827'  [ RunTime:0.0040s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.035002s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.035002s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0070s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0060s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,name as title,`erpTypeId` FROM app_model_category aa WHERE ( exists (select * from app_model_category a where aa.model_category_id = a.id and sign='mode') )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0050s ]
+SQL: SELECT `id`,name as title FROM `app_stone_purity`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0050s ]
+SQL: SELECT `id`,name as title FROM `app_stone_color`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=11) or myMasterAccountMId=11 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=11) or myMasterAccountMId=11 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`modelAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=11) or myMasterAccountMId=11 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=11) or myMasterAccountMId=11 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=11) or myMasterAccountMId=11 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=11) or myMasterAccountMId=11 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = 'c0f2779de2136596d1e6801378e81827'  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: IsCanSelectStone D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserInfo.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-26T17:00:43+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (10) [ RunTime:0.0070s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.063004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.065004s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0070s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0060s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0060s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: IsCanSelectStone D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserInfo.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-26T17:01:26+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.003000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0060s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0050s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current_detail` [ RunTime:0.0060s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0050s ]
+
+[ 2017-07-26T17:01:48+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.013001s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.015001s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0060s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0060s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,name as title,`erpTypeId` FROM app_model_category aa WHERE ( exists (select * from app_model_category a where aa.model_category_id = a.id and sign='mode') )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0050s ]
+SQL: SELECT `id`,name as title FROM `app_stone_purity`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0060s ]
+SQL: SELECT `id`,name as title FROM `app_stone_color`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-26T17:02:15+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.005000s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0060s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0060s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0060s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=10) or myMasterAccountMId=10 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-26T17:02:56+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=91da3aa50e35609023c0dac46c850376&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0040s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.054004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.054004s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0060s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0050s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,name as title,`erpTypeId` FROM app_model_category aa WHERE ( exists (select * from app_model_category a where aa.model_category_id = a.id and sign='mode') )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0040s ]
+SQL: SELECT `id`,name as title FROM `app_stone_purity`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0050s ]
+SQL: SELECT `id`,name as title FROM `app_stone_color`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`modelAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-26T17:03:12+08:00 ] 192.168.1.240 /api/aproxy/ModelDetailPage?tokenKey=91da3aa50e35609023c0dac46c850376&id=37147&QxVersion=1.5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0050s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.042002s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.043003s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelDetailPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 22 行.
+SQL: select a.*,
+                IFNULL(p.price ,'') AS sprice,
+                IFNULL(pa.price ,'') AS saprice,
+                IFNULL(pb.price ,'') AS sbprice,
+                IFNULL(pb.price ,'') AS scprice
+                 from app_model_product a
+                    LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                    where a.id=37147 [ RunTime:0.0050s ]
+SQL: SELECT
+                    model_category_id
+                FROM
+                    app_model_product_category c1
+                WHERE
+                model_product_id = 37147
+                AND
+                    EXISTS (
+                        SELECT
+                            *
+                        FROM
+                            app_model_category c2
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_category
+                                WHERE
+                                    c2.model_category_id = id
+                                AND sign = 'mode'
+                            )
+                        AND c1.model_category_id = c2.id
+                    ) LIMIT 1 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_puroduct_file` [ RunTime:0.0050s ]
+SQL: SELECT `id`,CONCAT('http://124.172.169.117:9888/',file) as pic,CONCAT('http://124.172.169.117:9888/',file1) as picm,CONCAT('http://124.172.169.117:9888/',file2) as picb FROM `app_model_puroduct_file` WHERE ( model_product_id=37147 and isShow>0 and `group`='productPic' ) ORDER BY sort  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_category` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_stone_purity` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_stone_color` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_remarks` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`content` FROM `app_model_remarks`  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_A D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 75 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_B D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 93 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+NOTIC: [8] Undefined index: stone_out_C D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelCls\flow.Model.ModelCls.ModelDetail.php 第 111 行.
+NOTIC: [8] Undefined variable: valueTemp D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\BllPublic.class.php 第 91 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=32) or myMasterAccountMId=32 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `userName`,`headPic`,`phone`,`trueName`,`modelAddtion`,`stoneAddtion`,`IsMasterAccount`,`IsCanSelectStone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,1086 @@
+[ 2017-07-28T14:37:16+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=9b102f07cfa13184ef5d88c82c543317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 18 行.
+
+[ 2017-07-28T14:39:13+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=9b102f07cfa13184ef5d88c82c543317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-28T14:39:18+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=9b102f07cfa13184ef5d88c82c543317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-28T14:39:59+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=9b102f07cfa13184ef5d88c82c543317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2017-07-28T14:40:18+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = 'be5fc01f10a42d5d8d5d4537ed808bad'  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 14 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 15 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview\flow.UserCls.UserPurview.UserPurviewCode.php 第 18 行.
+
+[ 2017-07-28T14:41:46+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0040s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.126008s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.025001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.152009s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current_detail` [ RunTime:0.0060s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY a.id desc   LIMIT 0,30' at line 8
+ [ SQL语句 ] : SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and   ORDER BY a.id desc   LIMIT 0,30
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY a.id desc   LIMIT 0,30' at line 8
+ [ SQL语句 ] : SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and   ORDER BY a.id desc   LIMIT 0,30
+
+[ 2017-07-28T14:42:48+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0070s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.056003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.058003s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current_detail` [ RunTime:0.0070s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+
+[ 2017-07-28T14:43:31+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0040s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.068004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.070004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and 
+
+[ 2017-07-28T14:44:02+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0030s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.058004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.059004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+ [ SQL语句 ] : SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape' and 
+
+[ 2017-07-28T14:45:20+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0050s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.044003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.044003s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current_detail` [ RunTime:0.0070s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0070s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+
+[ 2017-07-28T14:45:30+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0070s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.063004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.065004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: num D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
+
+[ 2017-07-28T14:46:35+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.065004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.067004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current_detail` [ RunTime:0.0050s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0070s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+SQL: SELECT
+                  count(*)
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  [ RunTime:0.0170s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+
+[ 2017-07-28T14:46:58+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0060s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0120s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.069004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.070004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0070s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*) as num
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-28T14:48:59+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0040s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.079005s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.081005s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( b.`value` in ('心形') )  ORDER BY a.id desc   LIMIT 0,30' at line 8
+ [ SQL语句 ] : SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  ( b.`value` in ('心形') )  ORDER BY a.id desc   LIMIT 0,30
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( b.`value` in ('心形') )  ORDER BY a.id desc   LIMIT 0,30' at line 8
+ [ SQL语句 ] : SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  ( b.`value` in ('心形') )  ORDER BY a.id desc   LIMIT 0,30
+
+[ 2017-07-28T14:49:59+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0040s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.061004s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.062004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current_detail` [ RunTime:0.0060s ]
+NOTIC: [2] include(./conf/otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './conf/otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(./otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening './otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Unable to find the wrapper &quot;xdebug&quot; - did you forget to enable it when you configured PHP? xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(otherConfig.php): failed to open stream: No such file or directory xdebug://debug-eval 第 1 行.
+NOTIC: [2] include(): Failed opening 'otherConfig.php' for inclusion (include_path='.;C:\php\pear') xdebug://debug-eval 第 1 行.
+
+[ 2017-07-28T14:50:59+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0040s ]
+SQL: insert into app_user_active (member_id) VALUE (133) [ RunTime:0.0060s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.054003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.055004s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0060s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  and  ( b.`value` in ('心形') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0250s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*) as num
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  and  ( b.`value` in ('心形') ) [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-28T14:51:03+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0050s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.041002s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.042002s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'   ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0060s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*) as num
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-28T14:51:06+08:00 ] 192.168.1.240 /api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '2734cf00350995eafc26d5193223dba7'  [ RunTime:0.0040s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.051003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.051003s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 16 行.
+NOTIC: [8] Undefined variable: mywayPost_Var D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 320 行.
+NOTIC: [8] Undefined index: HTTP_REFERER D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\PublicCode\FunctionCode.class.php 第 324 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=133) or myMasterAccountMId=133 ) ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT
+                  a.id,IFNULL(a.carat,'') as Weight,FORMAT(IFNULL(a.saledollorprice,0.00)*1.01,2) as Price,IFNULL(IFNULL(b.`value`,a.shape),'') as Shape
+        ,IFNULL(a.color,'') as Color,IFNULL(a.clarity,'') as Purity,IFNULL(a.cut,'') as Cut,IFNULL(a.polish,'') as Polishing
+        ,IFNULL(a.symmetry,'') as Symmetric,IFNULL(a.fluorescence,'') as Fluorescence
+        ,IFNULL(a.report,'') as CertAuth,IFNULL(a.reportno,'') as CertCode
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  and  ( b.`value` in ('心形') )  ORDER BY a.id desc   LIMIT 0,30 [ RunTime:0.0240s ]
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 220 行.
+NOTIC: [8] Undefined offset: 1 D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Stone\flow.stone.class.php 第 233 行.
+SQL: SELECT
+                  count(*) as num
+                FROM
+                app_jpdiam_white_stone_data a LEFT JOIN app_jpdiam_wordbook b
+            on a.shape=b.keywrod where b.kind='stoneShape'  and  ( b.`value` in ('心形') ) [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

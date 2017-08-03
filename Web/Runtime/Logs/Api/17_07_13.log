@@ -1,0 +1,308 @@
+[ 2017-07-13T15:39:57+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0120s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0120s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.530030s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.021002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.554032s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0190s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029002s ]
+
+[ 2017-07-13T15:42:16+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0830s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0240s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0190s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.207011s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.208011s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-13T15:42:35+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0120s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0150s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.117006s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.119006s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0470s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:48:52+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0240s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0110s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0090s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.426024s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.429024s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0190s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0510s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:57:07+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0160s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0300s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.254014s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.256014s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:57:46+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0490s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.163009s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.164010s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0280s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0180s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T15:59:35+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0170s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0110s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.093006s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.094006s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0610s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T16:01:35+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0100s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0100s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.089005s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.090005s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-13T16:02:27+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0700s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0230s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0080s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.222013s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.225013s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0400s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 102 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T16:04:51+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0230s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0170s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.167010s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.169010s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0270s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T16:35:39+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0090s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0100s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.099005s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.101006s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 103 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T16:56:17+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0080s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0110s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.097006s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.099006s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 103 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-13T16:58:55+08:00 ] 192.168.1.240 /api/aproxy/stoneOrderListPage?tokenKey=9b102f07cfa13184ef5d88c82c543317&id=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '9b102f07cfa13184ef5d88c82c543317'  [ RunTime:0.0200s ]
+SQL: insert into app_user_active (member_id) VALUE (132) [ RunTime:0.0130s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.116007s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.117007s ]
+NOTIC: [2048] Non-static method Api\Controller\StoneController::stoneOrderListPage() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.stone.php 第 24 行.
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0090s ]
+SQL: SELECT `id`,`stoneAddtion` FROM `app_member` WHERE ( (IsMasterAccount=1 and id=132) or myMasterAccountMId=132 ) ORDER BY id desc  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `app_member_address` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`province_id`,`city_id`,`area_id`,`phone`,`addr` FROM `app_member_address` WHERE `member_id` = 132 ORDER BY `isDefaultDate` desc,`id` desc LIMIT 1   [ RunTime:0.0130s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 103 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\stone\Controller.StoneOrder.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

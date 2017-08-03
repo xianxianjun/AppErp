@@ -1,0 +1,6 @@
+
+http://192.168.1.240:9112/api/Aproxy/currentVersion
+
+http://192.168.1.240:9112/api/Aproxy/currentVersion
+
+http://192.168.1.240:9112/api/Aproxy/currentVersion

@@ -1,0 +1,10 @@
+
+http://192.168.1.240:9112/api/Payment/GetWxpayModelParameter?tokenKey=0eb1dd6ff0e8a9499c1e8baf796bb5e9&orderId=2526
+
+http://192.168.1.240:9112/api/Payment/GetWxpayModelParameter?tokenKey=0eb1dd6ff0e8a9499c1e8baf796bb5e9&orderId=2526
+
+http://192.168.1.240:9112/api/Payment/GetWxpayModelParameter?tokenKey=0eb1dd6ff0e8a9499c1e8baf796bb5e9&orderId=130
+
+http://192.168.1.240:9112/api/Payment/GetWxpayModelParameter?tokenKey=0eb1dd6ff0e8a9499c1e8baf796bb5e9&orderId=2604
+
+http://192.168.1.240:9112/api/Payment/GetWxpayModelParameter?tokenKey=0eb1dd6ff0e8a9499c1e8baf796bb5e9&orderId=2604

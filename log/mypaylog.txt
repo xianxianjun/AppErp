@@ -1,0 +1,707 @@
+【2017-05-08 17:01:37】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:
+
+
+【2017-05-08 17:01:41】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:
+
+
+【2017-05-08 17:02:42】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:
+
+
+【2017-05-08 17:23:38】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:26:03;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=NqtUjSf+uWuZUyyTtJsytUjq7GrSqjPygOU2dO6t69xnt3wCcG/uBxnWiFGrMuMfcLVBPSw483XMWyg5Ks+HGCWVsCCDYPb96pTUdNVyQjdbfp2YDyFdRoQ2KXGSMbe/xy3eL4+vcB95YvayoyhlckKuTFiKbyGX0BjY1Aiz4Jo=
+
+
+【2017-05-08 17:23:39】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:26:04;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=pvgtwBg0dpedCjma1Cxq1SAt5QSh/pq0yahL+HgvAKPjMF8rm82wtfi5b1M3gXfJZEf1NdQREpnXzJi3xzVlO+8DG/OZyhjJzrwv+U8TxD6oNUtTGGNcRz7wMkrmg49RwBMA4zzgCIDg4+zbR83Lx2PSwlfQ+siM2PieaZzX6lw=
+
+
+【2017-05-08 17:29:59】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:32:24;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=fnVqTnq0TXI1mEMgrdGdtpv0KcCt546Llv1dCUnPF3kJ8hD8aFgoaj5/cnfggMRhD+3NeUbkrNHew9LXdghg7121cgRc/+ZcXIs1N/SdadMYQeD6HoWa2EHoU4i31H0TAZKVo1HVGuLY145BH9kVrtn9aaFY6AI/AtwEXlrpPDk=
+
+
+【2017-05-08 17:30:24】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:32:50;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=dXupeFlb3D4UHtlRjuyy7sxaeuQtsaI8x42O1PKta8fQ9CDiwad7evsPkD8zqK7FFMqO/mLbTO8HebpO6hR0Pm56UpuYkcHlPLJXuaQmf/mGI1KAiTibT8l2us1J8JvQ4ViB3O6vtU3jDjKtvANKqMVNRxce2OBjJmfXmNSMdY8=
+
+
+【2017-05-08 17:42:18】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:44:43;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=YOlslXK23aHNAuhcWNY77pIT/tTS0aKbgfGBdBTwpsIFv+d1Dh0DwLhYz4DZYmdg2qLH0OO6AZspu7dCUS9M/VLBXpQ2SM9KFtcVwyX4uo/xq5FIMs2S7BxBPzYJcicDX0sLy6KFItfk72y0hHIQ2i5qJXtIin0eJQcsqXmmoe0=
+
+
+【2017-05-08 17:42:20】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:44:45;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=IF8fNtiLqihdJlXsHHnd9rPTCOOgP+lIzuA4rHM/WBYzupj0eMSJ989iZi/w2nn4QYil6ulSpvfruB/epxExNmgHJcDuL++8aQK+O8OQYIhKCXTniIp4RBDsL0wETr8msMcEq7enuEedg9Yc8M6FYZAG+vUdGw/nqBEzjwzuD08=
+
+
+【2017-05-08 17:47:49】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:50:14;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=X1VDoctd1eYTmA+1K8Zru5wxnLXAVewfVHy4ZSIi/VqChTI0aQtTiJl26lDuCjpTswnxDkVHK5qJQOU+gecSeJzvcw0Vj02LDbRIZu05H8j1nHhUEYd5XpotDemc4Dp3pwYtG9VluY3fXE4VSJg4Emgzuufk5WbVjgTsjxlOBFQ=
+
+
+【2017-05-08 17:47:58】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 17:50:23;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=X0/i4vDyc2f3RYdezAMjaJ+S79zmiRkRSoEPq+WULqk1bAcjzqr01rLjv7GEgTeCTFrQl4b3e7UxNd1UV0P0uOejeEnCvY3xOkCnOeIeMrusUMjNPTstTz6S74QI95maa619BBqBm9DNi74S71M9rufSdYei9WCMlntJaGOhB5U=
+
+
+【2017-05-08 18:48:05】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 18:50:31;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=ovGA1wWsLptEg6WCJX2dn6Xs5y59ov8w8/C4Zqt0fxPv/drws75ypmP8zMX6PIiQXlPsFmvOTd9Jr+QIPtY3M51cezN+2LqdAK+B1ik1f/ehzq5EdAEMkLkme1t2YCN08BJBv0/T5Q9MO7UTMG26sGMWbWuO3QAgewzS4C+pgPk=
+
+
+【2017-05-08 18:48:10】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 18:50:36;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=OfPjmDn/AQcQQgAnGehIKCDuc3BlrBYdB5tzllWhk8PyVhX1EI1uIYqm+nRQew0tDfNp08izDnRaR3/LZRctR0pMXF1ULVs/daolO+02ldprhLz4iH3QTWB3Fh71tFLhGO4yGVDwjzlRtrniq8Mc3HF42Hlr4unySf/DiENwQaU=
+
+
+【2017-05-08 20:47:50】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 20:50:16;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=QA6K0qzO0IiXRzSnYaEoWbdXbWLtwcYqQBVP4niiNV06394kLLuky7NqCQJwAZZ1pbl4W+7x46x1KyURWSmCvsSgdiKaq+FqHcvoKnafJ8A9RUV8nTwrEu1ce6YKMPzwA/ddkkrl1NCkRZOxeN7wE0sXsT9lIVcPKWG6+lVbfuw=
+
+
+【2017-05-08 20:47:58】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-08 20:50:23;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=LiJDfLxYj8un3lLZcNaqpMx+sjYbq4pNzlX86mT1CUK75c5EkV6lhTQN5zfWizP/5QVIUZ7q2CASBj9Lek++RWQgHJiMzidy0Of9E378OrY46K15eynAnjiqvw0g8ONPfgbkTLjUKRAQHeNFT22LhdomRVC3tz1NQ+1prZvmKHI=
+
+
+【2017-05-09 02:47:56】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-09 02:50:22;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-08 17:26:04;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=8d8d8570b11eb70efbb11e523f7eabfm0q;use_coupon=N;sign_type=RSA;sign=oxj307m1ZERGchuypU8ZPbpmZyR1VlZtqMDIrQUJSI4shEwUy71nPGWnxtaNV/4JF0QE4KMmwigxAZmfYVpfEdePRxiKGsAJBtnR9X9gS4CtjfPYOV/PLnmK8haHiw1usvHqTmH8V4S6TXm107iRFe543w2IeljhjYvAX9kfMjQ=
+
+
+【2017-05-09 02:48:15】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050821001004780280375267;buyer_email=503964258@qq.com;gmt_create=2017-05-08 17:26:03;notify_type=trade_status_sync;quantity=1;out_trade_no=850547579387377010;seller_id=2088701204940140;notify_time=2017-05-09 02:50:40;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=cd8193d8de4f12115d254027d9082e4m0q;use_coupon=N;sign_type=RSA;sign=idrTOYw05afyNDGbUOwzm+ORYCiujHwOy4GZRcx3CmVjNgN0UL8dMBwVgTNJcp9mF3llDHB6cmZj4WYvedLuOvlPgVbOukYpiJTRvJr1Hz58tMacobtXx79MYOAmdBQJXi9I5dGoF//gan7RsIlLSdRXiL3FV86qTsDue7MFOK8=
+
+
+【2017-05-09 08:35:56】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 08:38:22;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=301db9f3d37afade87f9da66a948ccem0q;use_coupon=N;sign_type=RSA;sign=DwktP3Msyhye7V3o7F3iS95ayAGwEfkPHLEKB1Sp7tG+LBzj9iHdkwEOOAIE2g6xoGhWE5gl3GDVnjrgVS7df4kRNN3zJndZ2+lTVs+g907B34iXbpYE/5jh80MS6uIcztHhiaJATV19ifTGbvxtqxJhYfuVO0DI/6oPVKi95Og=
+
+
+【2017-05-09 08:35:57】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 08:38:22;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-09 08:38:22;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=0a8990512de972cf110d8071ce0891dm0q;use_coupon=N;sign_type=RSA;sign=UVOpfBj+SEpEsVTB6GzoYh1JJW1afW8uOygOiBPmbqliPRA8QH/o56EkK+1MzJO1mTWzZTOXyo0MMq1Z5NthSFPq1ZGs6YvOQ71TZ2fl/IT7OUWT7Z1TC37AmHbNcYNSuN/h1D+ArghjWHadFgGYu4C9QHHe5+6a8gf1QSPin9A=
+
+
+【2017-05-09 08:42:54】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 08:45:19;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-09 08:38:22;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=0a8990512de972cf110d8071ce0891dm0q;use_coupon=N;sign_type=RSA;sign=G6MJFPCGeZd5SN9i8qHe65U6qjRnxoYspWEOawZPws04CauUQS9GrheaAfH7DmymhJLQ15TD3MGO5HUg5YeECNxS2BjFp7NhLIvo5TfHOEiMEK9a6RYPxU9SwsEqgSUUuZJ777YQMv7NjirFs5uSFwD280lsz9PgM2qTBRWQQcs=
+
+
+【2017-05-09 08:43:08】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 08:45:34;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=301db9f3d37afade87f9da66a948ccem0q;use_coupon=N;sign_type=RSA;sign=PjGNZnP+JxHECdW1JH1btvQl6Kl+tbP73riV/i0Z0fJ9T+6NemZNJEgGAY4w9JhpyYWLX1zHEABVRMNKH+ddpm4lyMkYP+vpFVdcOHEHrM/dYFIh1WFWalFZbvShAW4IJnMKbORuIaZzZU1qDOzGyLcpzKljm72/iXB0JAqKNR0=
+
+
+【2017-05-09 08:49:43】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 08:52:09;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-09 08:38:22;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=0a8990512de972cf110d8071ce0891dm0q;use_coupon=N;sign_type=RSA;sign=CNdZJ7+8PIgFolO7rEqVJJtFaR4bLvsL/jihBMII9XOHqw5Kd0xUyxB2eNlcWGmM4/dY2B4DOFE7BSDv2TakaM5rhWeHO90VuKzz23s+KDxowdrzEJ1o/Nv5TJ0lMAdbs7FuIGjsaSU4z7vDbVEfLmh7jk9dZwWBJnRKb5qLJ2A=
+
+
+【2017-05-09 08:50:24】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 08:52:50;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=301db9f3d37afade87f9da66a948ccem0q;use_coupon=N;sign_type=RSA;sign=W8AqC60iUq5B6ZfQv+zM/WWGFgqfePirY2D8RjONXus+2GWWu5RtKY4EwCQ+g1rcuDLlFKLTV7cYoXYuOrOk5g6IXIAHvCxXzQh9xAUCjOAefJMRpN5v2BqkWqt8PTmNPaluvZieiUUU98AFzosqlquJ6QKB+4WvjRzR2p8J8KU=
+
+
+【2017-05-09 09:00:58】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 09:03:24;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=301db9f3d37afade87f9da66a948ccem0q;use_coupon=N;sign_type=RSA;sign=ErVBZN0tS3HdWTudgohR8HluRoI9qYAEDWrwJdIQRMnmxYr/h58xvi/4EoERE8MYXAV1KDeFrOkTEIjNeVcNniRRuTPNVqdqkmeEQEg4R8RMClAr2BafR0Y2In91gEhVmezXoPtkvso3oclVgNUNR6N0uHNeyt9DHI/iIgylhXQ=
+
+
+【2017-05-09 09:02:02】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 09:04:27;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-09 08:38:22;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=0a8990512de972cf110d8071ce0891dm0q;use_coupon=N;sign_type=RSA;sign=b8nwtPJHXgmgFRnfhPIqJ040bBi5r9g0+6TjHPUbs3fp//0/emnAs0xGZClpvkyyLXsaQfzKHqOD3Sm2MwZPRsQqu22T3p6WxGNcQqnbyKTulvFexq6d9HDPYQ6x8egVCasuoRfnJjNia2c5PTcekqKi1Z8EP2imGUmWrVH4c8A=
+
+
+【2017-05-09 10:02:11】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 10:04:37;body=千禧之星;trade_status=TRADE_SUCCESS;is_total_fee_adjust=N;total_fee=0.01;gmt_payment=2017-05-09 08:38:22;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=0a8990512de972cf110d8071ce0891dm0q;use_coupon=N;sign_type=RSA;sign=RQE9PR3lhVVuZB4Egdhs/Xem6SGFD7BdeZcsRDj9H/Dyodeoc066TF1hqVUEZaqQQ5EQz4Guy3Bqx1rsEHUGOj8oFoLdjM+7Mc5RVz3Rq7YKDsvEWsofcOoZCqc4xs7QxHqNSOuDI4NMuPyN3lsC/TffHW7Lrs9/Li0OaHUjqGw=
+
+
+【2017-05-09 10:02:26】
+当前地址:http://appapi1.fanerweb.com:80/api/Aproxy/testAlipay_return_url
+触发地址:
+GET:
+POST:;discount=0.00;payment_type=1;subject=测试支付;trade_no=2017050921001004780281147399;buyer_email=503964258@qq.com;gmt_create=2017-05-09 08:38:22;notify_type=trade_status_sync;quantity=1;out_trade_no=920547634146511010;seller_id=2088701204940140;notify_time=2017-05-09 10:04:52;body=千禧之星;trade_status=WAIT_BUYER_PAY;is_total_fee_adjust=Y;total_fee=0.01;seller_email=mstar_2000@163.com;price=0.01;buyer_id=2088802292790780;notify_id=301db9f3d37afade87f9da66a948ccem0q;use_coupon=N;sign_type=RSA;sign=aLSeEmm+hcTgU/SvjwBB3De5r/efVrTH08hnBPFtEMR9eTiaraeQx4OuZs5UhJlZ34mwmRwl63gPgz319LXW5HmM9muxQs+kIXjed1brg2HPj7qylUvThtZVHh7JlgoXorhZzZdkw5OCrbHtGcA/T2xaz439K9an+sIEHW0g+4Y=
+
+
+【支付宝web】\r\n【2017-05-16 10:09:49】
+当前地址:http://192.168.1.240:9112/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:
+
+
+【支付宝web】\r\n【2017-05-16 10:10:09】
+当前地址:http://192.168.1.240:9112/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:
+
+
+【支付宝web】\r\n【2017-05-16 10:11:32】
+当前地址:http://192.168.1.240:9112/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:
+
+
+【支付宝web】\r\n【2017-05-16 10:14:55】
+当前地址:http://192.168.1.240:9112/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:
+
+
+【支付宝web】\r\n【2017-05-16 10:19:43】
+当前地址:http://192.168.1.240:9112/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:
+
+
+stoneList【2017-05-23 11:16:15】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?&QxVersion=&tokenKey=69a875e5c234b5b49d1bead689f84832&cpage=1&certAuth=&color=&shape=&purity=&cut=&polishing=&symmetric=&fluorescence=&price=0,&weight=0.0,0.4&orderby=
+触发地址:
+GET:;QxVersion=;tokenKey=69a875e5c234b5b49d1bead689f84832;cpage=1;certAuth=;color=;shape=;purity=;cut=;polishing=;symmetric=;fluorescence=;price=0,;weight=0.0,0.4;orderby=
+POST:
+
+
+stoneList【2017-05-25 11:27:00】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=b564942f816308ed894b4ff7bd1e99ab&cpage=1&purity=vvs2&color=h,f&orderby=weight_desc
+触发地址:
+GET:;tokenKey=b564942f816308ed894b4ff7bd1e99ab;cpage=1;purity=vvs2;color=h,f;orderby=weight_desc
+POST:
+
+
+stoneList【2017-05-25 11:32:54】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=b564942f816308ed894b4ff7bd1e99ab&cpage=1&purity=vvs2&color=h,f&orderby=weight_desc
+触发地址:
+GET:;tokenKey=b564942f816308ed894b4ff7bd1e99ab;cpage=1;purity=vvs2;color=h,f;orderby=weight_desc
+POST:
+
+
+stoneList【2017-05-31 09:39:23】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=b564942f816308ed894b4ff7bd1e99ab&cpage=1&purity=vvs2&color=h,f
+触发地址:
+GET:;tokenKey=b564942f816308ed894b4ff7bd1e99ab;cpage=1;purity=vvs2;color=h,f
+POST:
+
+
+stoneList【2017-05-31 10:27:25】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?tokenKey=8b896b9892869a6916eb55ee5112d5d0&cpage=1
+触发地址:
+GET:;tokenKey=8b896b9892869a6916eb55ee5112d5d0;cpage=1
+POST:
+
+
+stoneList【2017-05-31 10:32:27】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?tokenKey=b564942f816308ed894b4ff7bd1e99ab&cpage=1
+触发地址:
+GET:;tokenKey=b564942f816308ed894b4ff7bd1e99ab;cpage=1
+POST:
+
+
+stoneList【2017-07-04 16:24:38】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:24:47】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:25:26】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:25:56】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:26:26】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:29:07】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:30:35】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-04 16:31:16】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=91da3aa50e35609023c0dac46c850376
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=91da3aa50e35609023c0dac46c850376
+POST:
+
+
+stoneList【2017-07-04 16:31:44】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=91da3aa50e35609023c0dac46c850376
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=91da3aa50e35609023c0dac46c850376
+POST:
+
+
+stoneList【2017-07-04 16:32:41】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=91da3aa50e35609023c0dac46c850376
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=91da3aa50e35609023c0dac46c850376
+POST:
+
+
+stoneList【2017-07-04 16:33:13】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-06 15:02:51】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=9b102f07cfa13184ef5d88c82c543317
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=9b102f07cfa13184ef5d88c82c543317
+POST:
+
+
+stoneList【2017-07-06 15:03:38】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.3&cpage=1&tokenKey=9b102f07cfa13184ef5d88c82c543317
+触发地址:
+GET:;QxVersion=1.3;cpage=1;tokenKey=9b102f07cfa13184ef5d88c82c543317
+POST:
+
+
+stoneList【2017-07-17 10:04:30】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317
+POST:
+
+
+stoneList【2017-07-17 10:06:19】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317
+POST:
+
+
+stoneList【2017-07-17 10:09:26】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&weight=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;weight=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:09:55】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&weight=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;weight=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:13:16】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:13:57】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:53:51】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:54:28】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:55:46】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:56:49】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:57:46】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 10:58:16】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 11:00:31】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 11:02:39】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 11:09:47】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 15:37:29】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317
+POST:
+
+
+stoneList【2017-07-17 15:37:48】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 15:40:19】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 15:41:32】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000.1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000.1,0
+POST:
+
+
+stoneList【2017-07-17 15:41:48】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000,0
+POST:
+
+
+stoneList【2017-07-17 15:42:14】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000,0&weight=1,2
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000,0;weight=1,2
+POST:
+
+
+stoneList【2017-07-17 15:42:37】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000,0&weight=0,2
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000,0;weight=0,2
+POST:
+
+
+stoneList【2017-07-17 15:43:10】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000,0&weight=1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000,0;weight=1,0
+POST:
+
+
+stoneList【2017-07-17 15:44:41】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&price=1000,0&weight=1,0
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;price=1000,0;weight=1,0
+POST:
+
+
+stoneList【2017-07-19 16:51:30】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+POST:
+
+
+stoneList【2017-07-19 16:54:32】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&QxVersion=1.3
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad;QxVersion=1.3
+POST:
+
+
+stoneList【2017-07-19 16:57:23】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&QxVersion=1.3
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad;QxVersion=1.3
+POST:
+
+
+stoneList【2017-07-19 16:58:26】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&QxVersion=1.3
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad;QxVersion=1.3
+POST:
+
+
+stoneList【2017-07-19 17:00:09】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&QxVersion=1.3
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad;QxVersion=1.3
+POST:
+
+
+stoneList【2017-07-19 17:02:20】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&QxVersion=1.3
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad;QxVersion=1.3
+POST:
+
+
+stoneList【2017-07-19 17:05:25】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&QxVersion=1.3
+触发地址:
+GET:;tokenKey=be5fc01f10a42d5d8d5d4537ed808bad;QxVersion=1.3
+POST:
+
+
+stoneList【2017-07-21 15:23:37】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;cpage=1;purity=vvs2;color=h,f
+POST:
+
+
+stoneList【2017-07-21 16:59:31】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;cpage=1;purity=vvs2;color=h,f;warehouse=jphk
+POST:
+
+
+stoneList【2017-07-21 17:13:46】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;cpage=1;purity=vvs2;color=h,f;warehouse=jphk
+POST:
+
+
+stoneList【2017-07-21 17:15:05】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk&shape=%E5%9C%86%E5%BD%A2
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;cpage=1;purity=vvs2;color=h,f;warehouse=jphk;shape=圆形
+POST:
+
+
+stoneList【2017-07-21 17:15:40】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk&shape=%E5%9C%86%E5%BD%A2
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;cpage=1;purity=vvs2;color=h,f;warehouse=jphk;shape=圆形
+POST:
+
+
+stoneList【2017-07-21 17:17:01】
+当前地址:http://192.168.1.240:9112/api/Aproxy/stoneList?tokenKey=9b102f07cfa13184ef5d88c82c543317&cpage=1&purity=vvs2&color=h,f&warehouse=jphk&shape=%E5%9C%86%E5%BD%A2
+触发地址:
+GET:;tokenKey=9b102f07cfa13184ef5d88c82c543317;cpage=1;purity=vvs2;color=h,f;warehouse=jphk;shape=圆形
+POST:
+
+
+stoneList【2017-07-28 14:40:33】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:42:13】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:43:26】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:44:02】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:44:22】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:45:26】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:46:01】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:46:55】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:48:59】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7;shape=心形
+POST:
+
+
+stoneList【2017-07-28 14:49:45】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7;shape=心形
+POST:
+
+
+stoneList【2017-07-28 14:50:59】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7;shape=心形
+POST:
+
+
+stoneList【2017-07-28 14:51:03】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7
+POST:
+
+
+stoneList【2017-07-28 14:51:06】
+当前地址:http://192.168.1.240:9112/api/aproxy/stoneList?QxVersion=1.5&warehouse=jphk&tokenKey=2734cf00350995eafc26d5193223dba7&shape=%E5%BF%83%E5%BD%A2
+触发地址:
+GET:;QxVersion=1.5;warehouse=jphk;tokenKey=2734cf00350995eafc26d5193223dba7;shape=心形
+POST:
+
+

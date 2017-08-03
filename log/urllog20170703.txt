@@ -1,0 +1,6 @@
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?QxVersion=1.3&tokenKey=1a27831ce31f2a64b71ad4e97d394ca3&productId=101086&categoryId=108&number=1&handSize=%E6%89%8B%E5%AF%B8&stone=1|1|1|1|1|1&stoneA=&stoneB=&stoneC=&isSelfStone=0&remarks=&jewelStoneId=1158302
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?QxVersion=1.3&tokenKey=1a27831ce31f2a64b71ad4e97d394ca3&productId=101086&categoryId=108&number=1&handSize=%E6%89%8B%E5%AF%B8&stone=1|1|1|1|1|1&stoneA=&stoneB=&stoneC=&isSelfStone=0&remarks=&jewelStoneId=1158302
+
+http://192.168.1.240:9112/api/Aproxy/OrderListPage?tokenKey=1a27831ce31f2a64b71ad4e97d394ca3

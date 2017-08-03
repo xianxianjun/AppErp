@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/UserCls/flow.UserCls.UserSetFunction.php" line="53" />
+    <bookmark url="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCategory.php" line="202" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a4b638e-4b28-48c7-bdf1-99e9749941ef" name="默认的" comment="" />
+    <ignored path="AppErp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AppErp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Controller.Update.JpdiamData.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.JpdiamData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5472837" vertical-offset="538" max-vertical-offset="1035">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+              <folding>
+                <element signature="e#33#71#0#PHP" expanded="true" />
+                <element signature="e#455#5287#0#PHP" expanded="false" />
+                <marker date="1501647915616" expanded="true" signature="607:990" placeholder="UPDATE app_j..." />
+                <marker date="1501647915616" expanded="true" signature="782:960" placeholder="SELECT stone..app_jpdiam_white_stone_data_temp..." />
+                <marker date="1501647915616" expanded="true" signature="1008:1387" placeholder="UPDATE app_j..." />
+                <marker date="1501647915616" expanded="true" signature="1179:1357" placeholder="SELECT stone..app_jpdiam_white_stone_data_temp..." />
+                <marker date="1501647915616" expanded="true" signature="1429:2554" placeholder="UPDATE app_j..." />
+                <marker date="1501647915616" expanded="true" signature="2587:4890" placeholder="INSERT INTO ..." />
+                <marker date="1501647915616" expanded="true" signature="3388:4890" placeholder="SELECT * FRO..stoneid..." />
+                <marker date="1501647915616" expanded="true" signature="3484:4862" placeholder="SELECT stone..app_jpdiam_white_stone_data_temp..." />
+                <marker date="1501647915616" expanded="true" signature="4681:4832" placeholder="SELECT stone..app_jpdiam_white_stone_data..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow.JpdiamCls.JpdiamData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/flow.JpdiamCls.JpdiamData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow.JpdiamCls.JpdiamFunction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/flow.JpdiamCls.JpdiamFunction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125" vertical-offset="645" max-vertical-offset="1185">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow.stone.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Stone/flow.stone.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3312" max-vertical-offset="5460">
+              <caret line="249" column="114" selection-start-line="249" selection-start-column="114" selection-end-line="249" selection-end-column="114" />
+              <folding>
+                <marker date="1501665414847" expanded="true" signature="7748:8043" placeholder="select id,or..app_jewel_stone_order..." />
+                <marker date="1501665414847" expanded="true" signature="7856:7937" placeholder="select count..app_jewel_stone_order_detail..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.ModelPart.Order.ModelCurrentOrderPage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.ModelCurrentOrderPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="840">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.ModelPart.Model.ModelPage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Model/Controller.ModelPart.Model.ModelPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.541667" vertical-offset="725" max-vertical-offset="2490">
+              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow.Model.ModelCls.ModelCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.0" vertical-offset="402" max-vertical-offset="5745">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+              <folding>
+                <marker date="1501729215847" expanded="true" signature="10497:10545" placeholder="SELECT count..app_model_product..." />
+                <marker date="1501729215847" expanded="true" signature="11090:11183" placeholder="select id,na..." />
+                <marker date="1501729215847" expanded="true" signature="11494:11585" placeholder="select id,na..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow.Model.ModelCls.ModelCofing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCofing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.9583335" vertical-offset="208" max-vertical-offset="735">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convention.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5" vertical-offset="540" max-vertical-offset="2610">
+              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow.Model.ModelCls.ModelDetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelDetail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2745">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="SHOW PROCESSLIST" />
+    </commandsHistory>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="D:/FlashFXP/Cache/~flashfxp/33014897_view.tmp/config.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/6FD78A59_view.tmp/config.php" />
+        <option value="$PROJECT_DIR$/Web/Admin/Controller/AdminApiController/Order/Admin.Controller.Order.ProduceListPage.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelOrderCls/UserModelOrder/flow.Model.ModelOrderCls.UserModelOrder.ModelOrderProducePage.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/FLOW.JPDIAM.INC.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/PublicCode/ErpPublicCode.class.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/JpdiamCls.class.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/flow.JpdiamCls.JpdiamData.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/PublicCode/FunctionCode.class.php" />
+        <option value="$USER_HOME$/Desktop/Conf/config.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/D5430D57_view.tmp/index.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Aproxy/Controller.Aproxy.ModelProxy.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.UserModelOrder.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/ModelController.class.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.ModelCurrentOrderDo.php" />
+        <option value="$USER_HOME$/Desktop/index.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/CAA34482_view.tmp/config.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/BaseCls/flow.baseCls.CacheForModel.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/PublicController.class.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/31B53D62_view.tmp/config.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/UserCls/flow.UserCls.UserInfo.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/UpdateController.class.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/PublicCode/YunpianGetcode.class.php" />
+        <option value="$USER_HOME$/Desktop/YunpianGetcode.class.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/B0C04741_view.tmp/YunpianGetcode.class.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/4CB47C02_view.tmp/config.php" />
+        <option value="D:/FlashFXP/Cache/~flashfxp/FF2051C1_view.tmp/config.php" />
+        <option value="$PROJECT_DIR$/Web/Conf/indexPage.php" />
+        <option value="$PROJECT_DIR$/Web/Conf/otherConfig.php" />
+        <option value="$PROJECT_DIR$/Web/privateConfig/IndexPage.php" />
+        <option value="$PROJECT_DIR$/Web/Conf/config.php" />
+        <option value="$USER_HOME$/Desktop/config.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Aproxy/Controller.Aproxy.IndexProxy.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Index/Controller.index.IndexPage.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.ModelCurrentOrderPage.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Update/CONTROLLER.UPDATE.INC.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/UpdateCls.class.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/stone/Controller.Stone.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Behaviors/PurviewBehavior.class.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Aproxy/Controller.Aproxy.stone.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.CategoryData.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/flow.JpdiamCls.JpdiamFunction.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Stone/flow.stone.StoneSql.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelOrderCls/flow.Model.ModelOrderCls.ModelCurrentOrderPage.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelDetail.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.JpdiamData.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCofing.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Stone/flow.stone.class.php" />
+        <option value="$PROJECT_DIR$/Web/Api/Controller/ModelPart/Model/Controller.ModelPart.Model.ModelPage.php" />
+        <option value="$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCategory.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" name="localhost" port="9112" />
+      <server host="192.168.1.240" name="192.168.1.240" port="9112" />
+      <server host="192.168.1.240" name="192.168.1.240 (1)" port="9098" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppErp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp" />
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\image\imageForApi" />
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\UserPurview" />
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Admin\View\Api\Stone" />
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Admin\Controller\AdminApiController" />
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow" />
+      <recent name="D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a4b638e-4b28-48c7-bdf1-99e9749941ef" name="默认的" comment="" />
+      <created>1473384937755</created>
+      <option name="number" value="Default" />
+      <updated>1473384937755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972972" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31343284" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3589189" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/WebBeta/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.UserModelSearchOrder.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelOrderCls/AdminModelOrder/flow.Model.ModelOrderCls.AdminModelOrder.ModelOrderAdminDo.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Web/Common/Common/Api/flow/UpdateCls/flow.UpdateCls.Model.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Web/Admin/Controller/AdminApiController/Order/Admin.Controller.Order.ProduceListPage.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelOrderCls/UserModelOrder/flow.Model.ModelOrderCls.UserModelOrder.ModelOrderProducePage.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.UserModelOrder.php</url>
+          <line>133</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.JpdiamData.php</url>
+          <line>173</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="505" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$model" language="PHP" />
+        <watch expression="M('model_main_order_current_detail')" language="PHP" />
+        <watch expression="I('get.stone', '')" language="PHP" />
+        <watch expression="I('get.stoneB', '')" language="PHP" />
+        <watch expression="include'./conf/otherConfig.php'" language="PHP" />
+        <watch expression="include'./otherConfig.php'" language="PHP" />
+        <watch expression="include 'otherConfig.php'" language="PHP" />
+        <watch expression="$obj-&gt;msgdata-&gt;token" language="PHP" />
+        <watch expression="$obj-&gt;msgdata" language="PHP" />
+        <watch expression="$obj" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/Code/myResponse.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="23" max-vertical-offset="1575">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/User/Controller.User.UserPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1020">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/BaseCls/flow.baseCls.ModelOrderCls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18927445" vertical-offset="0" max-vertical-offset="720">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/Code/myValidate.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3888889" vertical-offset="480" max-vertical-offset="1680">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/PublicCode/BllPublic.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34814814" vertical-offset="412" max-vertical-offset="1890">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.ModelCurrentOrderDo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="7125">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43333334" vertical-offset="606" max-vertical-offset="1230">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelOrderCls/flow.Model.ModelOrderCls.ModelCurrentOrderDo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="6480">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Aproxy/Controller.Aproxy.ModelProxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2640">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/PublicController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="930">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/PublicCode/YunpianGetcode.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54269177" vertical-offset="0" max-vertical-offset="1935">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35" vertical-offset="576" max-vertical-offset="1140">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Aproxy/Controller.Aproxy.IndexProxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5555556" vertical-offset="0" max-vertical-offset="540">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Index/Controller.index.IndexPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3611111" vertical-offset="45" max-vertical-offset="765">
+          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/UpdateController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="540">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/UserCls/flow.UserCls.UserInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="1890">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.UserModelOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2016" max-vertical-offset="3945">
+          <caret line="156" column="48" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Update/CONTROLLER.UPDATE.INC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/UpdateCls.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Behaviors/PurviewBehavior.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="1140">
+          <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Aproxy/Controller.Aproxy.stone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="990">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/stone/Controller.Stone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.0" vertical-offset="90" max-vertical-offset="1230">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Payment/Controller.Alipay.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.458194" vertical-offset="356" max-vertical-offset="4455">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75663024" vertical-offset="100" max-vertical-offset="765">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Think.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34814814" vertical-offset="2917" max-vertical-offset="5130">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/stone/Controller.StoneOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3494" max-vertical-offset="5250">
+          <caret line="205" column="6" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/StoneController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.CategoryData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="570">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Stone/flow.stone.StoneSql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3342" max-vertical-offset="4635">
+          <caret line="247" column="116" selection-start-line="247" selection-start-column="116" selection-end-line="247" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3210">
+          <caret line="76" column="58" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/UpdateCls/flow.UpdateCls.ModelImages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="3465">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/flow.stone.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.352574" vertical-offset="2790" max-vertical-offset="4530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/PublicCode/ErpPublicCode.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06396256" vertical-offset="3964" max-vertical-offset="7275">
+          <caret line="267" column="27" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/PublicCode/FunctionCode.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3455414" vertical-offset="2888" max-vertical-offset="5775">
+          <caret line="212" column="27" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/BaseCls/flow.baseCls.CacheForModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1680">
+          <caret line="104" column="94" selection-start-line="104" selection-start-column="50" selection-end-line="104" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelOrderCls/flow.Model.ModelOrderCls.ModelCurrentOrderPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="7140">
+          <caret line="141" column="57" selection-start-line="141" selection-start-column="57" selection-end-line="141" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Stone/flow.stone.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3312" max-vertical-offset="5460">
+          <caret line="249" column="114" selection-start-line="249" selection-start-column="114" selection-end-line="249" selection-end-column="114" />
+          <folding>
+            <marker date="1501665414847" expanded="true" signature="7748:8043" placeholder="select id,or..app_jewel_stone_order..." />
+            <marker date="1501665414847" expanded="true" signature="7856:7937" placeholder="select count..app_jewel_stone_order_detail..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Order/Controller.ModelPart.Order.ModelCurrentOrderPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="840">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2745">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="540" max-vertical-offset="2610">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCofing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9583335" vertical-offset="208" max-vertical-offset="735">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Model/ModelCls/flow.Model.ModelCls.ModelCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="402" max-vertical-offset="5745">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding>
+            <marker date="1501729215847" expanded="true" signature="10497:10545" placeholder="SELECT count..app_model_product..." />
+            <marker date="1501729215847" expanded="true" signature="11090:11183" placeholder="select id,na..." />
+            <marker date="1501729215847" expanded="true" signature="11494:11585" placeholder="select id,na..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/ModelPart/Model/Controller.ModelPart.Model.ModelPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.541667" vertical-offset="725" max-vertical-offset="2490">
+          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/flow.JpdiamCls.JpdiamFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="645" max-vertical-offset="1185">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Common/Common/Api/flow/Jpdiam/flow.JpdiamCls.JpdiamData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Api/Controller/Update/Controller.Update.JpdiamData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5472837" vertical-offset="538" max-vertical-offset="1035">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+            <element signature="e#455#5287#0#PHP" expanded="false" />
+            <marker date="1501647915616" expanded="true" signature="607:990" placeholder="UPDATE app_j..." />
+            <marker date="1501647915616" expanded="true" signature="782:960" placeholder="SELECT stone..app_jpdiam_white_stone_data_temp..." />
+            <marker date="1501647915616" expanded="true" signature="1008:1387" placeholder="UPDATE app_j..." />
+            <marker date="1501647915616" expanded="true" signature="1179:1357" placeholder="SELECT stone..app_jpdiam_white_stone_data_temp..." />
+            <marker date="1501647915616" expanded="true" signature="1429:2554" placeholder="UPDATE app_j..." />
+            <marker date="1501647915616" expanded="true" signature="2587:4890" placeholder="INSERT INTO ..." />
+            <marker date="1501647915616" expanded="true" signature="3388:4890" placeholder="SELECT * FRO..stoneid..." />
+            <marker date="1501647915616" expanded="true" signature="3484:4862" placeholder="SELECT stone..app_jpdiam_white_stone_data_temp..." />
+            <marker date="1501647915616" expanded="true" signature="4681:4832" placeholder="SELECT stone..app_jpdiam_white_stone_data..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

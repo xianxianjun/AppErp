@@ -1,0 +1,1542 @@
+[ 2017-06-29T15:16:08+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0080s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0080s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.199011s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.096006s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.297017s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0080s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.4810s ]
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0290s ]
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 438 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0080s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029002s ]
+
+[ 2017-06-29T15:17:30+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0790s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0560s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.218012s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.222012s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0280s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0560s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.6910s ]
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: referencePrice xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 438 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0460s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-29T16:50:17+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0390s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0590s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0750s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.280016s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.281016s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0300s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.1260s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.7540s ]
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.2370s ]
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 448 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.1340s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-29T16:51:05+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.1500s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.3460s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.1760s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:1.203069s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:1.206069s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0430s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.4170s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.1870s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.1960s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.8530s ]
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.2650s ]
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 448 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0580s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-29T16:52:37+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0690s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0460s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0440s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.362021s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.364021s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0300s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.1670s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0600s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0590s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.7700s ]
+
+[ 2017-06-29T16:54:43+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0610s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0520s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0740s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.386022s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.389022s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0440s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0870s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.7160s ]
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.1970s ]
+
+[ 2017-06-29T16:58:50+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0700s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0470s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0460s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.362021s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.364021s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0600s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0580s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.7680s ]
+NOTIC: [8] Undefined index: model_main_order_current_id xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: model_main_order_current_id xdebug://debug-eval 第 1 行.
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.1960s ]
+
+[ 2017-06-29T17:02:25+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0080s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.058003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.059003s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0070s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.4790s ]
+NOTIC: [8] Undefined index: model_main_order_current_id xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: model_main_order_current_id xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.0510s ]
+
+[ 2017-06-29T17:04:04+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0060s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0070s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.051003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.051003s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0050s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.4730s ]
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.0510s ]
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 449 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0060s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-29T17:08:48+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0140s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0170s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.104006s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.104006s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0110s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.4800s ]
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.0530s ]
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 449 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0070s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-29T17:08:57+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0060s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0080s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.061003s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.062003s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0060s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.4830s ]
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.1040s ]
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 449 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0080s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-29T17:14:39+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0490s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0480s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.294016s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.295016s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0610s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0860s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.7480s ]
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.1920s ]
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 449 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0160s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-29T17:18:01+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0050s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0180s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.154009s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.154009s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0060s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.8430s ]
+NOTIC: [8] Undefined index: number xdebug://debug-eval 第 1 行.
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.2380s ]
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 449 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.0550s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-29T17:20:46+08:00 ] 192.168.1.240 /api/aproxy/ModelOrderWaitCheckList?tokenKey=91da3aa50e35609023c0dac46c850376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+NOTIC: [8] Undefined index: Rejectordererpuser D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\UserCls\flow.UserCls.UserSessionManage.php 第 39 行.
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0700s ]
+SQL: SELECT `id`,`userName`,`tokenKey`,`orderErpId`,`salesErpId`,`phone` FROM `app_member` WHERE `tokenKey` = '91da3aa50e35609023c0dac46c850376'  [ RunTime:0.0470s ]
+SQL: insert into app_user_active (member_id) VALUE (32) [ RunTime:0.0480s ]
+INFO: Run Api\Behaviors\PurviewBehavior [ RunTime:0.327018s ]
+INFO: Run Admin\Behaviors\AdminPurviewBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.328018s ]
+NOTIC: [2048] Non-static method Api\Controller\ModelController::ModelOrderWaitCheckList() should not be called statically, assuming $this from incompatible context D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Api\Controller\Aproxy\Controller.Aproxy.ModelProxy.php 第 66 行.
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0650s ]
+SQL: SELECT a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice FROM app_model_main_order_current a WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.0840s ]
+SQL: SHOW COLUMNS FROM `app_model_main_order_current` [ RunTime:0.0880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model_main_order_current` WHERE ( member_id=32 and orderStatus>0 and orderStatus<=1000 ) LIMIT 1   [ RunTime:0.0560s ]
+SQL: select * from (SELECT
+                        b.`name`,
+                        b.modelNum,
+                        b.weight,
+                        ifnull(b.price,0) as price,
+                        top1c.model_category_id,
+                        top1c.erpTypeId,
+                        CONCAT('http://124.172.169.117:9888/',b.pic) as pic,
+                        IFNULL(p.price, 0) * IFNULL(a.stone_number, 0) + IFNULL(pa.price, 0) * IFNULL(a.stone_number_A, 0) + IFNULL(pb.price, 0) * IFNULL(a.stone_number_B, 0) + IFNULL(pc.price, 0) * IFNULL(a.stone_number_C, 0) AS stonePrice,
+                        a.*,b.price as referencePrice
+                    FROM
+                        app_model_main_order_current_detail a
+                    LEFT JOIN (
+                        SELECT
+                            ampc.id,
+                            ampc.model_category_id,
+                            ampc.model_product_id,
+                            amc11.erpTypeId,
+                            amc11.name as categoryName
+                        FROM
+                            app_model_product_category ampc
+                        INNER JOIN (
+                            SELECT
+                                *
+                            FROM
+                                app_model_category amc1
+                            WHERE
+                                EXISTS (
+                                    SELECT
+                                        *
+                                    FROM
+                                        app_model_category
+                                    WHERE
+                                        sign = 'mode'
+                                    AND amc1.model_category_id = id
+                                )
+                        ) amc11 ON ampc.model_category_id = amc11.id
+                        WHERE
+                            EXISTS (
+                                SELECT
+                                    *
+                                FROM
+                                    app_model_main_order_current_detail
+                                WHERE
+                                    member_id = 32
+                                AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                                AND model_product_id = ampc.model_product_id
+                            )
+                        GROUP BY
+                            model_product_id
+                    ) top1c ON top1c.model_product_id = a.model_product_id
+                    INNER JOIN app_model_product b ON a.model_product_id = b.id  LEFT JOIN app_stone_price p ON p.stone_category_id = a.stone_category_id
+                    AND p.stone_color_id = a.stone_color_id
+                    AND p.stone_purity_id = a.stone_purity_id
+                    AND p.stone_spec_id = a.stone_spec_id
+                    LEFT JOIN app_stone_price pa ON pa.stone_category_id = a.stone_category_id_A
+                    AND pa.stone_color_id = a.stone_color_id_A
+                    AND pa.stone_purity_id = a.stone_purity_id_A
+                    AND pa.stone_spec_id = a.stone_spec_id_A
+                    LEFT JOIN app_stone_price pb ON pb.stone_category_id = a.stone_category_id_B
+                    AND pb.stone_color_id = a.stone_color_id_B
+                    AND pb.stone_purity_id = a.stone_purity_id_B
+                    AND pb.stone_spec_id = a.stone_spec_id_B
+                    LEFT JOIN app_stone_price pc ON pc.stone_category_id = a.stone_category_id_C
+                    AND pc.stone_color_id = a.stone_color_id_C
+                    AND pc.stone_purity_id = a.stone_purity_id_C
+                    AND pc.stone_spec_id = a.stone_spec_id_C
+                     WHERE
+                        a.member_id = 32
+                        AND orderStatus>0 AND orderStatus <=1000 AND model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105)
+                        
+                    ORDER BY
+                        id DESC) aac order by model_main_order_current_id desc [ RunTime:0.7240s ]
+SQL: SELECT `payPercent` FROM `app_member` WHERE `id` = 32  [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `app_model_order_jewel_stone_log` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `app_model_order_jewel_stone_log` WHERE ( model_main_order_current_id in (3220,3128,3127,3126,3125,2945,2459,2105) )  [ RunTime:0.2220s ]
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined offset: -1 xdebug://debug-eval 第 1 行.
+NOTIC: [2048] Non-static method Common\Common\Api\flow\ModelOrderCls::GetOrderGroupByStatus() should not be called statically D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\UserModelOrder\flow.Model.ModelOrderCls.UserModelOrder.ModelOrderWaitCheckPage.php 第 449 行.
+SQL: SELECT
+            orderStatus,
+            count(*) num
+        FROM
+            app_model_main_order_current
+        WHERE
+            member_id = 32
+        AND orderStatus >= 0
+        GROUP BY
+            orderStatus [ RunTime:0.1180s ]
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object D:\Apache HTTP Server\x64\WebApp\AppErp\Web\Common\Common\Api\flow\Model\ModelOrderCls\flow.Model.ModelOrderCls.ModelCurrentOrderOther.php 第 34 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,459 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: qianxi
+ * Date: 2016/11/4
+ * Time: 15:20
+ */
+namespace Common\Common\Api\flow;
+use Common\Common\Api\Code\myResponse;
+use Common\Common\PublicCode\BllPublic;
+use Common\Common\PublicCode\FunctionCode;
+use Common\Common\PublicCode\ConvertType;
+use Common\Common\PublicCode\WithSql;
+use Common\Common\PublicCode\ErpPublicCode;
+use Common\Common\Api\flow\BaseCls;
+use Common\Common\Api\flow\ModelCls;
+use Common\Common\Api\flow\UserCls;
+use Common\Common\Api\Code\ValidateCode;
+use Common\Common\PublicCode\isHaveCustomer;
+
+trait ModelOrderWaitCheckPage
+{
+    public static function ModelOrderWaitCheckDetail($tokenKey,$memberId,$orderId,$cpage,$pageCount = '')
+    {
+        $orderData = M("model_main_order_current a")
+            ->field("a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice")
+            ->where(array("member_id"=>$memberId,"id"=>$orderId))
+            ->select();
+        if(count($orderData)<=0)
+        {
+            return myResponse::ResponseDataFalseObj("获取数据出错");
+        }
+        $customerId = $orderData[0]["customerId"];
+        $qualityId = $orderData[0]["model_quality_id"];
+        $purityId = $orderData[0]["model_purity_id"];
+        $word = $orderData[0]["word"];
+        $addressId = $orderData[0]["member_address_id"];
+        $orderNum = $orderData[0]["orderNum"];
+        $orderDate = $orderData[0]["createDate"];
+        $invoiceTitle = $orderData[0]["invoiceTitle"];
+        $invoiceType = FunctionCode::FindEqArrReField(ModelOrderCls::$INVOICE_TYPE,"id","title",$orderData[0]["invoiceType"]);
+        $orderStatus = ModelOrderCls::GetOrderStatusName($orderData[0]["orderStatus"]);
+        $orderNote = $orderData[0]["orderNote"];
+        $finishPrice = $orderData[0]["finishPrice"];
+        $isNeetPay = $orderData[0]["orderStatus"] == ModelOrderCls::$ORDER_STATUS_CREATE_ORDER_WAIT_PAY_100?1:0;
+
+
+
+
+        $modelType = BaseCls::CacheModelCategory();
+        $stoneType = BaseCls::CacheStoneCategory();
+        $stoneSpec = BaseCls::CacheStoneSpec();
+        $stoneShape = BaseCls::CacheStoneShape();
+        $stonePurity = BaseCls::CacheStonePurity();
+        $stoneColor = BaseCls::CacheStoneColor();
+
+        $Model = new \Think\Model();
+        $baseData = $Model->query(ModelOrderCls::Stone_Price_For_WaitCheck_OrderItem_Sql($memberId,$orderId,$cpage,$pageCount));
+
+
+        $currentOrderlList = array();
+        $n = 0;
+        $erpTypeIds = "";
+        $TotelpriceTemp = 0;
+        $userPercent = UserCls::GetUserPayPercentByMemberId($memberId);
+        $jewelStoneLog = M("model_order_jewel_stone_log")->where("model_main_order_current_id=".$orderId)->select();
+        foreach($baseData as $value)
+        {
+            $stonePrice = $value["stonePrice"];
+            $number = $value['number'];
+            $weight = $value['weight'];
+
+            $TotelpriceTemp = $TotelpriceTemp + $value["referencePrice"];
+            $sn = FunctionCode::FindEqArrReN($jewelStoneLog,"model_main_order_current_detail_id",$value["id"]);
+            if($sn<0) {
+                $stoneInfo = (ConvertType::ConvertInt($value['stone_category_id'], -1) > 0 ? "类型:" . FunctionCode::FindEqObjReField($stoneType, "id", "title", $value["stone_category_id"]) : "")
+                    . (ConvertType::ConvertInt($value['stone_number'], -1) > 0 ? ",数量:" . $value['stone_number'] . "粒" : "")
+                    . (ConvertType::ConvertInt($value['stone_spec_id'], -1) > 0 ? ",规格:" . FunctionCode::FindEqArrReField($stoneSpec, "id", "title", $value["stone_spec_id"]) : "")
+                    . (ConvertType::ConvertInt($value['stone_shape_id'], -1) > 0 ? ",形状:" . FunctionCode::FindEqObjReField($stoneShape, "id", "title", $value["stone_shape_id"]) : "")
+                    . (ConvertType::ConvertInt($value['stone_color_id'], -1) > 0 ? ",颜色:" . FunctionCode::FindEqArrReField($stoneColor, "id", "title", $value["stone_color_id"]) : "")
+                    . (ConvertType::ConvertInt($value['stone_purity_id'], -1) > 0 ? ",纯度:" . FunctionCode::FindEqArrReField($stonePurity, "id", "title", $value["stone_purity_id"]) : "")
+                    . (ConvertType::ConvertInt($value[0]['isSelfStone'], 0) == 1 ? ",自带石头" : "");
+                $stoneInfo = empty($stoneInfo) ? "" : "主石(" . $stoneInfo . ")";
+            }
+            else
+            {
+                $stoneInfo = "选择主石头编号:".$jewelStoneLog[$sn]["CertCode"];
+                $stonePrice = $stonePrice + floatval($jewelStoneLog[$sn]["Price"]);
+            }
+
+            $stoneInfoA =
+                ConvertType::ConvertInt($value['stone_out_A'],0) == 1?"封石":
+                (ConvertType::ConvertInt($value['stone_category_id_A'],-1)>0?"类型:".FunctionCode::FindEqObjReField($stoneType,"id","title",$value["stone_category_id_A"]):"")
+                .(ConvertType::ConvertInt($value['stone_number_A'],-1)>0?",数量:".$value['stone_number_A']."粒":"")
+                .(ConvertType::ConvertInt($value['stone_spec_id_A'],-1)>0?",规格:".FunctionCode::FindEqArrReField($stoneSpec,"id","title",$value["stone_spec_id_A"]):"")
+                .(ConvertType::ConvertInt($value['stone_shape_id_A'],-1)>0?",形状:".FunctionCode::FindEqObjReField($stoneShape,"id","title",$value["stone_shape_id_A"]):"")
+                .(ConvertType::ConvertInt($value['stone_color_id_A'],-1)>0?",颜色:".FunctionCode::FindEqArrReField($stoneColor,"id","title",$value["stone_color_id_A"]):"")
+                .(ConvertType::ConvertInt($value['stone_purity_id_A'],-1)>0?",纯度:".FunctionCode::FindEqArrReField($stonePurity,"id","title",$value["stone_purity_id_A"]):"");
+            $stoneInfoA = empty($stoneInfoA)?"":";副石A(".$stoneInfoA.")";
+
+            $stoneInfoB =
+                ConvertType::ConvertInt($value['stone_out_B'],0) == 1?"封石":
+                (ConvertType::ConvertInt($value['stone_category_id_B'],-1)>0?"类型:".FunctionCode::FindEqObjReField($stoneType,"id","title",$value["stone_category_id_B"]):"")
+                .(ConvertType::ConvertInt($value['stone_number_B'],-1)>0?",数量:".$value['stone_number_B']."粒":"")
+                .(ConvertType::ConvertInt($value['stone_spec_id_B'],-1)>0?",规格:".FunctionCode::FindEqArrReField($stoneSpec,"id","title",$value["stone_spec_id_B"]):"")
+                .(ConvertType::ConvertInt($value['stone_shape_id_B'],-1)>0?",形状:".FunctionCode::FindEqObjReField($stoneShape,"id","title",$value["stone_shape_id_B"]):"")
+                .(ConvertType::ConvertInt($value['stone_color_id_B'],-1)>0?",颜色:".FunctionCode::FindEqArrReField($stoneColor,"id","title",$value["stone_color_id_B"]):"")
+                .(ConvertType::ConvertInt($value['stone_purity_id_B'],-1)>0?",纯度:".FunctionCode::FindEqArrReField($stonePurity,"id","title",$value["stone_purity_id_B"]):"");
+            $stoneInfoB = empty($stoneInfoB)?"":";副石B(".$stoneInfoB.")";
+
+            $stoneInfoC =
+                ConvertType::ConvertInt($value['stone_out_C'],0) == 1?"封石":
+                (ConvertType::ConvertInt($value['stone_category_id_C'],-1)>0?"类型:".FunctionCode::FindEqObjReField($stoneType,"id","title",$value["stone_category_id_C"]):"")
+                .(ConvertType::ConvertInt($value['stone_number_C'],-1)>0?",数量:".$value['stone_number_C']."粒":"")
+                .(ConvertType::ConvertInt($value['stone_spec_id_C'],-1)>0?",规格:".FunctionCode::FindEqArrReField($stoneSpec,"id","title",$value["stone_spec_id_C"]):"")
+                .(ConvertType::ConvertInt($value['stone_shape_id_C'],-1)>0?",形状:".FunctionCode::FindEqObjReField($stoneShape,"id","title",$value["stone_shape_id_C"]):"")
+                .(ConvertType::ConvertInt($value['stone_color_id_C'],-1)>0?",颜色:".FunctionCode::FindEqArrReField($stoneColor,"id","title",$value["stone_color_id_C"]):"")
+                .(ConvertType::ConvertInt($value['stone_purity_id_C'],-1)>0?",纯度:".FunctionCode::FindEqArrReField($stonePurity,"id","title",$value["stone_purity_id_C"]):"");
+            $stoneInfoC = empty($stoneInfoC)?"":";副石C(".$stoneInfoC.")";
+
+            $remarks = $value["remarks"];
+            $remarks = empty($remarks)?"":";备注(".$remarks.")";
+
+            $info = $stoneInfo.$stoneInfoA.$stoneInfoB.$stoneInfoC.$remarks;
+
+            $id = $value["id"];
+            $modelId = $value["model_product_id"];
+            $title = $value["name"]."(".$value["modelNum"].")";
+            $pic = $value["fpic"];
+            $baseInfo = "类型:".FunctionCode::FindEqArrReField($modelType,"id","title",$value["model_category_id"])
+                .(empty($value['handSize']) || $value['handSize']==0?"":";手寸:".floatval($value['handSize']));
+
+            $price = (floatval($value["price"])+floatval($stonePrice))*$number;
+            $dataItem = array("id"=>$id,"modelId"=>$modelId,"title"=>$title,"typeId"=>$value["erpTypeId"],"weight"=>$weight,"pic"=>$pic,"baseInfo"=>$baseInfo,"stonePrice"=>$stonePrice
+            ,"price"=>$price
+            ,"needPayPrice"=>$price*$userPercent
+            ,"number"=>floatval($number),"info"=>$info);
+            $currentOrderlList[$n++] = $dataItem;
+            if(!empty($value["erpTypeId"]) && !strpos(",".$erpTypeIds.",",",".$value["erpTypeId"].","))
+            {
+                $erpTypeIds = empty($erpTypeIds)?$value["erpTypeId"]:$erpTypeIds.",".$value["erpTypeId"];
+            }
+        }
+        //------------------------ErpData
+
+        //$totalPrice = 0;
+        //$totalNeedPayPrice = 0;
+        $goldPriceItem = "";
+        $nn = 0;
+        /*if(!empty($erpTypeIds) && !empty($purityId) && !empty($qualityId) && !empty($currentOrderlList) && count($currentOrderlList)>0) {
+            $ErpValuePriceData = ErpPublicCode::GetUrlObjData("GetModelValuePrice", "model", array("typeIds" => $erpTypeIds, "purityId" => $purityId, "qualityId" => $qualityId));
+            if(!empty($ErpValuePriceData) && count($ErpValuePriceData)>0) {//计算价格
+                $nn = 0;
+                foreach ($currentOrderlList as $value) {
+                    $n = FunctionCode::FindEqObjReN($ErpValuePriceData, "typeId", $value["typeId"]);
+
+                    if ($n >= 0) {
+                        $goldPriceItem = (double)($ErpValuePriceData[$n]->goldPrice);
+                        $lossCostPer = (double)($ErpValuePriceData[$n]->lossCostPer)>0?(double)($ErpValuePriceData[$n]->lossCostPer):0.15;//损耗
+                        $goldPrice = $goldPriceItem>0?(double)($ErpValuePriceData[$n]->goldPrice):0;//金重
+                        $processCost = (double)($ErpValuePriceData[$n]->processCost)>0?(double)($ErpValuePriceData[$n]->processCost):0;
+                        $ProportionToWax =  (double)($ErpValuePriceData[$n]->ProportionToWax)>0?(double)($ErpValuePriceData[$n]->ProportionToWax):18;
+                        if($goldPrice != 0) {
+                            $currentOrderlList[$nn]["price"] = ((double)$value["stonePrice"]
+                                    + (double)$value["weight"] * $ProportionToWax * $goldPrice * (1+$lossCostPer) + $processCost) * intval($currentOrderlList[$nn]["number"]);
+                            $currentOrderlList[$nn]["needPayPrice"] = ((double)$currentOrderlList[$nn]["price"])*$userPercent;
+                            $totalPrice = $totalPrice + ((double)$currentOrderlList[$nn]["price"]);
+                            $totalNeedPayPrice = $totalNeedPayPrice + ((double)$currentOrderlList[$nn]["needPayPrice"]);
+                        }
+                        else
+                        {
+                            $currentOrderlList[$nn]["price"] = 0;
+                            $currentOrderlList[$nn]["needPayPrice"] = 0;
+                        }
+                    }
+                    else
+                    {
+                        $currentOrderlList[$nn]["price"] = 0;
+                        $currentOrderlList[$nn]["needPayPrice"] = 0;
+                    }
+                    //$currentOrderlList[$nn]["price"] = BllPublic::GetModelPriceHaveStone($ErpValuePriceData,$value["typeId"],$value["weight"]
+                        //,$qualityId,$purityId,floatval($value["stonePrice"]))* intval($currentOrderlList[$nn]["number"]);
+                    $currentOrderlList[$nn]["price"] = (floatval($value["price"])+floatval($value["stonePrice"])) * intval($currentOrderlList[$nn]["number"]);
+                    $currentOrderlList[$nn]["needPayPrice"] = floatval($currentOrderlList[$nn]["price"])*$userPercent;
+                    $totalPrice = $totalPrice + floatval($currentOrderlList[$nn]["price"]);
+                    $totalNeedPayPrice = $totalNeedPayPrice + floatval($currentOrderlList[$nn]["needPayPrice"]);
+
+                    unset($currentOrderlList[$nn]["weight"]);
+                    unset($currentOrderlList[$nn]["typeId"]);
+                    $nn++;
+                }
+            }
+        }*/
+        //-------------------------ErpData
+        if(FunctionCode::isInteger($cpage) && intval($cpage)>1) {
+            $data = array("currentOrderlList"=>array("list" => $currentOrderlList,"list_count"=>ModelOrderCls::GetWaitCheckOrderItemCount($memberId,$orderId)));
+        }
+        else {
+            $ErpData = ErpPublicCode::GetUrlObjData("GetModelCurrentOrderPage","model",array("customerId" => $customerId,"typeIds"=>$erpTypeIds,"purityId"=>$purityId,"qualityId"=>$qualityId));
+            //$customer = ErpPublicCode::GetUrlObjData("GetCustomerById", "customer", array("customerId" => $orderErpId));
+            //$modelPurity = BaseCls::CacheModelPurity();
+            //$modelQuality = BaseCls::CacheModelQuality();
+            $customer = $ErpData->customer;
+            $modelPurity = $ErpData->modelPurity;
+            $modelQuality = $ErpData->modelQuality;
+            $thisModelQualityTitle = FunctionCode::FindEqObjReItem($modelQuality,"id",$qualityId)->title;
+            $thisModelPurityTitle = FunctionCode::FindEqObjReItem($modelPurity,"id",$purityId)->title;
+            if(FunctionCode::isInteger($addressId) && $addressId!=0)
+            {
+                $reObj = UserCls::getAddressInfoById($tokenKey,$addressId);
+                $address = $reObj->error!=ValidateCode::$noError?null:$reObj;
+            }
+            else if($addressId!='0')
+            {
+                $reObj = UserCls::getDefultAddress($tokenKey);
+                $address = $reObj->error!=ValidateCode::$noError?null:$reObj;
+            }
+            if(empty($address))
+            {
+                $address = myResponse::ResponseDataTrueDataObj(UserCls::$PickDefaultAddress);
+            }
+            $data = array("currentOrderlList"=>array("list" => $currentOrderlList,"list_count"=>ModelOrderCls::GetWaitCheckOrderItemCount($memberId,$orderId))
+            , "address" => $address->data
+            ,"orderInfo"=>array("orderNum"=>$orderNum,"goldPrice"=>$goldPriceItem,"orderDate"=>$orderDate,"orderStatus"=>$orderStatus,"customerName"=>$customer->customerName,"purityName"=>$thisModelPurityTitle
+                ,"qualityName"=>$thisModelQualityTitle,"word"=>$word,"invoiceTitle"=>$invoiceTitle,"invoiceType"=>$invoiceType,"orderNote"=>$orderNote)
+            , "modelColor" => $modelPurity, "modelQuality" => $modelQuality
+            ,"totalPrice"=>$TotelpriceTemp,"totalNeedPayPrice"=>$TotelpriceTemp*$userPercent,"finishPrice"=>$finishPrice,"isNeetPay"=>$isNeetPay);//$totalNeedPayPrice $totalPrice
+        }
+        return myResponse::ResponseDataTrueDataObj($data);
+    }
+    public static function GetWaitCheckOrderItemCount($memberId,$orderId)
+    {
+        $Model = new \Think\Model();
+        $data = $Model->query(ModelOrderCls::Stone_Price_For_WaitCheck_OrderItem_Count_Sql($memberId,$orderId));
+        if(count($data)>0)
+        {
+            return $data[0]["cou"];
+        }
+        return 0;
+    }
+    public static function ModelOrderWaitCheckList($memberId,$cpage,$orderId=0)
+    {
+        $pageCount = 8;//BaseCls::$EACH_PAGE_COUNT;
+        if ($cpage <= 1) {
+            $upnum = 0;
+        } else {
+            $upnum = ($cpage - 1) * $pageCount;
+        }
+        $whereOrderId = "";
+        if(intval($orderId)>0)
+        {
+            $whereOrderId = " and id=".$orderId." ";
+        }
+        $where = "member_id=".$memberId." and orderStatus>".ModelOrderCls::$ORDER_STATUS_NOT_CREATE_ORDER_BEFORRE_0
+            ." and orderStatus<=".ModelOrderCls::$CAN_MODITY_ORDER_ITEM_ELT_ORDER_STATUS_1000.$whereOrderId;
+        $orderData = M("model_main_order_current a")
+            ->field("a.*,(select sum(amount) as finishPrice from app_payment_to_log where objid=a.id and isPaySuccess=1) as finishPrice")
+            ->where($where)->order("id desc")->limit($upnum.','.$pageCount)->select();
+        $list_count = M("model_main_order_current")->where($where)->count();
+        if(!empty($orderData) && count($orderData)>0)
+        {
+            $purityIds = "";
+            $qualityIds = "";
+            $customerIds = "";
+            $orderIdList = "";
+            $data = array();
+            $n = 0;
+            foreach($orderData as $line)
+            {
+                $orderIdList = empty($orderIdList)?$line["id"]:$orderIdList.",".$line["id"];
+                $purityIds = empty($purityIds)?$line["model_purity_id"]:$purityIds.",".$line["model_purity_id"];
+                $qualityIds = empty($qualityIds)?$line["model_quality_id"]:$qualityIds.",".$line["model_quality_id"];
+                $customerIds = empty($customerIds)?$line["customerId"]:$customerIds.",".$line["customerId"];
+                $itemData = array("id"=>$line["id"],"orderNum"=>$line["orderNum"],"customerId"=>$line["customerId"],"customerName"=>""
+                ,"orderDate"=>$line["createDate"],"modifyDate"=>$line["updateDate"],"otherInfo"=>"","stoneTotalPrice"=>0.00,"totalPrice"=>0.00
+                ,"qualityId"=>$line["model_quality_id"],"purityId"=>$line["model_purity_id"],"word"=>$line["word"]
+                ,"needPayPrice"=>0.00,"finishPrice"=>$line["finishPrice"],"number"=>0,"orderStatus"=>$line["orderStatus"],"orderStatusTitle"=>"","pics"=>array());
+                $data[$n++] = $itemData;
+            }
+            if(!empty($orderIdList)) {
+                $Model = new \Think\Model();
+                $orderPriceData = $Model->query(ModelOrderCls::Stone_Price_For_WaitCheck_OrderList_Sql($orderIdList,$memberId));
+                if(!empty($orderPriceData) && count($orderPriceData)>0) {
+                    $types = "";
+                    $typestmp = "";
+                    $cid = "";
+                    $stonePrice = 0.00;
+                    $jewelStonePrice = 0.00;
+                    $jewelStonePriceArr = array();
+                    $typeArr = array();//合并订单里明细类型id数组
+                    $itemNumberArr = array();
+                    $weightArr = array();//合并订单里明细重量数组
+                    $picArr = array();//图片数组
+                    $nn = 0;
+                    $nnn = 0;
+                    $TotelpriceTemp = 0;
+                    $userPercent = UserCls::GetUserPayPercentByMemberId($memberId);
+
+                    $jewelStoneLog = M("model_order_jewel_stone_log")->where("model_main_order_current_id in (".$orderIdList.")")->select();//选择的石头
+
+                    foreach($orderPriceData as $line)//按组来获取相关数据,获取类型id如： 1,2|3,4，把石头价格加上$data里的订单详情的类型
+                    {
+                        if(empty($cid))
+                        {
+                            $typestmp = $line["erpTypeId"];
+                            $cid = $line["model_main_order_current_id"];
+                            $stonePrice = $stonePrice + $line["stonePrice"]*$line["number"];
+                            $modelPriceArr[$nn] = $line["price"];
+                            $sn = FunctionCode::FindEqArrReN($jewelStoneLog,"model_main_order_current_detail_id",$line["id"]);
+                            if($sn>=0) {
+                                $jewelStonePrice = $jewelStonePrice + $jewelStoneLog[$sn]["Price"]*$line["number"];
+                            }
+                            //$typeArr[$nn] = $line["erpTypeId"];
+                            $weightArr[$nn] = $line["weight"];
+                            $itemNumberArr[$nn] = $line["number"];
+                            $TotelpriceTemp = $TotelpriceTemp + $line["referencePrice"]*$line["number"]*$userPercent+$jewelStonePrice;
+                            if($nn<4) {
+                                $picArr[$nn] = empty($line["pic"])?"":$line["pic"];
+                            }
+                            $nn++;
+                            continue;
+                        }
+                        else if($cid != $line["model_main_order_current_id"])
+                        {
+                            $types = empty($types)?$typestmp:$types."|".$typestmp;
+                            $n = FunctionCode::FindEqArrReN($data,"id",$cid);
+                            if($n!=-1) {
+                                $data[$n]["stoneTotalPrice"] = $stonePrice;
+                            }
+                            //$data[$n]["types"] = $typeArr;
+                            $data[$n]["weight"] = $weightArr;
+                            $data[$n]["itemNumber"] = $itemNumberArr;
+                            $data[$nnn]["number"] = $nn;
+                            $data[$nnn]["jewelStonePrice"] = $jewelStonePrice;
+                            $data[$nnn]["pics"] = $picArr;
+                            $data[$nnn]["modelPriceArr"] = $modelPriceArr;
+                            $data[$n]["needPayPrice"] = $TotelpriceTemp;
+                            $nnn++;
+                            $TotelpriceTemp = 0;
+                            $jewelStonePrice = 0;
+                            $weightArr = array();
+                            $modelPriceArr = array();
+                            $itemNumberArr = array();
+                            //$typeArr = array();
+                            $picArr = array();
+                            $nn = 0;
+                            $stonePrice = 0.00;
+                            $typestmp = "";
+                        }
+                        $modelPriceArr[$nn] = $line["price"];
+                        $sn = FunctionCode::FindEqArrReN($jewelStoneLog,"model_main_order_current_detail_id",$line["id"]);
+                        if($sn>=0) {
+                            $jewelStonePrice = $jewelStonePrice + $jewelStoneLog[$sn]["Price"]*$line["number"];
+                        }
+                        if(!strpos(",".$typestmp.",",",".$line["erpTypeId"].",")) {
+                            $typestmp =  empty($typestmp) ?$line["erpTypeId"]:$typestmp . "," . $line["erpTypeId"];
+                        }
+                        $stonePrice = $stonePrice + $line["stonePrice"]*$line["number"];
+                        $typeArr[$nn] = $line["erpTypeId"];
+                        $weightArr[$nn] = $line["weight"];
+                        $itemNumberArr[$nn] = $line["number"];
+                        if($nn<=4) {
+                            $picArr[$nn] = empty($line["pic"])?"":$line["pic"];
+                        }
+                        $nn++;
+                        $cid = $line["model_main_order_current_id"];
+                        //$TotelpriceTemp = $TotelpriceTemp + $line["referencePrice"];
+                        $TotelpriceTemp = $TotelpriceTemp + $line["referencePrice"]*$line["number"]*$userPercent+$jewelStonePrice;
+                        //$TotelpriceTemp =
+                    }
+                    if(!empty($typestmp) && !empty($cid)) {
+                        $n = FunctionCode::FindEqArrReN($data,"id",$cid);
+                        if($n!=-1) {
+                            $data[$n]["stoneTotalPrice"] = $stonePrice;
+                        }
+                        //$data[$n]["types"] = $typeArr;
+                        $data[$n]["weight"] = $weightArr;
+                        $data[$n]["itemNumber"] = $itemNumberArr;
+                        $data[$n]["modelPriceArr"] = $modelPriceArr;
+                        $data[$nnn]["jewelStonePrice"] = $jewelStonePrice;
+                        $data[$nnn]["number"] = $nn;
+                        $data[$nnn]["pics"] = $picArr;
+                        $types = empty($types) ? $typestmp : $types . "|" . $typestmp;
+                    }
+                    $SubmitData = ErpPublicCode::GetUrlObjData("GetModeGetWaitCheckOrderList","model",array("typeIds"=>$types,"purityIds"=>$purityIds,"qualityIds"=>$qualityIds,"customerIds"=>$customerIds
+                    ,"cpage"=>$cpage,"appmid"=>$memberId));
+                    //计算总价
+                    if($SubmitData && count($SubmitData)>0)
+                    {
+                        for($nn = 0;$nn<count($data);$nn++) {
+                            //$typeArr = $data[$nn]["types"];
+                            $modelPriceArr = $data[$nn]["modelPriceArr"];
+                            //$weightArr = $data[$nn]["weight"];
+                            $itemNumberArr = $data[$nn]["itemNumber"];
+                            $data[$nn]["customerName"] = FunctionCode::FindEqObjReItem($SubmitData->customer, "customerID", $data[$nn]["customerId"])->customerName;
+                            $data[$nn]["otherInfo"] = "成色:".FunctionCode::FindEqObjReItem($SubmitData->modelPurity, "id", $data[$nn]["purityId"])->title
+                                ."; 质量等级:".FunctionCode::FindEqObjReItem($SubmitData->modelQuality, "id", $data[$nn]["qualityId"])->title
+                                ."; 字印:".$data[$nn]["word"]
+                                ."; 金价:".FunctionCode::FindEqObjReItem($SubmitData->modelValuePrice, "purityId", $data[$nn]["purityId"])->goldPrice."/g"//金价只与成色有关
+                                ."; 件数:".$data[$nn]["number"];
+                            $data[$nn]["orderStatusTitle"] = ModelOrderCls::GetOrderStatusName($data[$nn]["orderStatus"]);
+                            $totalModelPrice = 0.00;
+                            for($i = 0;$i<count($modelPriceArr);$i++) {
+                                //$type = $typeArr[$i];
+                                //$weight = $weightArr[$i];
+                                $itemNumber = $itemNumberArr[$i];
+                                //$itemuPrice = BllPublic::GetModelPrice($SubmitData->modelValuePrice,$type
+                                    //,$weight,$data[$nn]["qualityId"]
+                                //,$data[$nn]["purityId"]);
+                                $itemuPrice = $modelPriceArr[$i];
+                                $totalModelPrice = $totalModelPrice + $itemuPrice*$itemNumber;
+                            }
+                            $stoneTotalPrice = (double)$data[$nn]["stoneTotalPrice"];
+                            $jewelStonePrice = $data[$nn]["jewelStonePrice"];
+                            $data[$nn]["totalPrice"] = $stoneTotalPrice + $totalModelPrice + $jewelStonePrice;
+                            $data[$nn]["needPayPrice"] = ($data[$nn]["totalPrice"])*$userPercent;//2017-05-17
+                            //$data[$nn]["needPayPrice"] = $TotelpriceTemp;
+                            //$data[$nn]["totalModelPrice"] = $totalModelPrice;
+                            unset($data[$nn]["itemNumber"]);
+                            unset($data[$nn]["stoneTotalPrice"]);
+                            unset($data[$nn]["types"]);
+                            unset($data[$nn]["qualityId"]);
+                            unset($data[$nn]["purityId"]);
+                            unset($data[$nn]["customerId"]);
+                            unset($data[$nn]["weight"]);
+                            unset($data[$nn]["word"]);
+                            unset($data[$nn]["number"]);
+                            unset($data[$nn]["orderStatus"]);
+                        }
+                    }
+                }
+
+                //计算总价
+                //unset($data[0]["types"]);
+                //echo json_encode($SubmitData)."<br>";
+            }
+            //echo json_encode($data)."<br>";
+
+        }
+        if(empty($cpage) || $cpage<=1) {
+            if(empty($SubmitData))
+            {
+                $productedingCount = -1;
+                $waitForSendCount = -1;
+            }
+            else {
+                $productedingCount = intval($SubmitData->getOrderGroupByStatusEntity->productedingCount);
+                $waitForSendCount = intval($SubmitData->getOrderGroupByStatusEntity->sendedCount);
+            }
+            $statusCount = ModelOrderCls::GetOrderGroupByStatus($memberId,$productedingCount,$waitForSendCount);
+            $redata = array("orderList"=>array("list"=>$data,"list_count"=>$list_count),"statusCount"=>$statusCount);
+        }
+        else
+        {
+            $redata = array("orderList"=>array("list"=>$data,"list_count"=>$list_count));
+        }
+        return myResponse::ResponseDataTrueDataObj($redata);
+    }
+}

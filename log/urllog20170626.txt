@@ -1,0 +1,16 @@
+
+http://192.168.1.240:9112/api/Aproxy/OrderCurrentDoModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&productId=7
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&productId=7&number=1
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&productId=7&number=1&jewelStoneId=895942&jewelStoneCode=5103503755
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&productId=7&number=1&jewelStoneId=895942&jewelStoneCode=5103503755
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&productId=7&number=1&jewelStoneId=895942&jewelStoneCode=5103503755
+
+http://192.168.1.240:9112/api/Aproxy/OrderDoCurrentModelItemDo?tokenKey=be5fc01f10a42d5d8d5d4537ed808bad&productId=7&number=1&jewelStoneId=895942&jewelStoneCode=5103503755

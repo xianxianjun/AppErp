@@ -1,0 +1,105 @@
+【支付宝web】\r\n【2017-05-15 15:56:21】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-15 15:58:51;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=VnjdY7HmNHviPWtlhTWEDJxqsxTejnFqZ857FVAfSbSVGIQojY8hvP/lWy20Z5J75A3DUL9mBLKV5rCPabIBhvjoU8uBeeDGEjLtMpLW49edkLu67vnB+2isGk3pkbbm+TKuA/tOvemO/pIeVwQyPO0j1bpWvRy/C1w5ZQ97DH55Ql9C1L2eDSlylW1SpiyFxKWsWNDIbKbm4LGt+bJ0EI2R1s4L1cH0QvaI264smVyITde4vJ78sS5DO0ZoZRiYOwgxbHpr4o3vg5bzhg0ig9o2EEae9SiSw7DD0kGvDsENWAchxR5LUvfsXO1Rna13Dt/ZUjq0d82EXQcYpGWfuA==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 16:01:00】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:
+
+
+【支付宝web】\r\n【2017-05-15 16:04:12】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-15 16:06:41;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=S9lDkHoxL2L409nv2EM8MsnMNZ0ue+5iS2YGdyvitSSbRxrxkzQc9ly3wlZEHTaHOnyQkl/gPeXw+negLnLVThoD23zxDpJYukoA+NpXoxOcUyGYbWjZQFLWUtCCa9dOl+6cInSkLCO+R8E6zecplZvcEZflQ9ebj1y05sBNEaquTqS2H0GzkDV8hQ+41c7mHtN7BTkWW6F4igesR8AqzbMeWp/qBoY7eYN5t75SwW0gsjN5CF65zilJHLJeZihdw9j8T9rH9/2HwD2wHL5lnn+aILfsh7PJ4ha7hdhuQ+nMSFrrg7MZTAsrE3T8TLxCttL2xsBK2Pa4D65DNsa8mg==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 16:10:12】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-15 16:12:42;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=ZptK44xbBqtX95+HeyQcnzEKenjnSqRiTPyrOgt7C7Z+Oa1aiGPA5VF1Nfsa2bh6oSRBHpL9JXBVA1cGuxXKN7tE+zI6f2O0x8lOVAJ5vAcM7XYAgJ2TvI9Ca451YtIAWUHFzejwbguMlZMisp6N+RWfzkieRHHi+/6Smswyc3bBUex72sIazPkPdxP9AoYtDX+4oyefH9t3M9IOz84sq+FiW73dlCYKFViQn3CuGofp6MGRSTSi8NB6Jitm3tR6EZkt39EvWl49X4T+KoUNPhv3K38ibavOSkZ+c+PHc25AE4mLGr0TlnGaY59o4NNEXHoPGRTPiOw1Vy2wz9thKw==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 16:22:47】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-15 16:25:17;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=IwPk8/jFqTjz26b6EiRszSnNm4OUIep+N7PXBGnf5Q9VKhIJ1/k6q/vb/BCVkdwVlX0W04js+hDPihyjT0qkoQqVZnWy3zL7gseWy38ioHKysGJYkn4Gr3Qhzjrv41BYaVDus5kGODGjfqrUEGe74ripOsEVy2HUdFtZJcgvVlp/BNyC+IxBQ5KdWrBJ0DlpwTrGMOD6p6T5pU0H2zvkIaxgEnaJBiidjIIo9HEeyOx0LKwDTeFHu2UCb4BblsW5IJSBQZUSk/HgkhwPbgipBANi4IDow9LJLPrC2lUasyNPaXY3vGSNhkioEnfv3/qavxst8JF+zoQrxR3I7SccNQ==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 17:17:13】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-15 17:19:43;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=C3HlyO0X/0Hvtq1Lecm8KoQ9bKQxJC/iagCemOnTh0j3VKXDvsbAADZvDu9VDAQwnmPk0QM3Dzc8q5Y4rjzIZf+m2Hx31V1j9LCePBxOnzr0/pXL0tispFgiw5zpepUlhTnGKPRtYJzcWX8MzaMF6d+Xr1eb6a2EGXJk6hUyUVp+zKoCBmG1ksrv6Y0fu9RmMdAS1DZzXxrX390irL96LGMXc4wkR7zTKZvYLL6uCF0wvSGf+/cFDHP3ysi7Cv6Wv6/LomXV4AytGLhYNSHYvmf3GooVFAuuo4Or+hWSrTt3XAgzgGrAcCb8ni5BxT85rkuN9is1jB0FXtJseX/wEw==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 17:19:37】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-15 17:22:06;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=GQnh4Ude2j1iQlA486xooAaH6T5qiHKLTImO4lt9tjYbnWdw9pcGG9hFQLMlWTrPtiDZgJ2/sIG38f1ZXLSwonpNvWpYair/ILTsAXL4EA56p0wkXmdd8QsTwnQTd7EfXk8JI7073v88r/SS0DIixyd55gYeBHBPz2NyHFFkWHaGKnVKJkeNx8ZvVfd8jXGmPoQUUQNMO4cl46KOBU2QwGHg3rsYHlk7Pxa/o2IfQzCfbtKihj5sz9BVr1Q8C9ed1p1fzhmSng8FDUtRzyVji5iIM2jW2uL2R2oG1z54+ov8Zu1T3iOL5VeCTbKBy4MGHYCWrrKZLrSgvsEVpJSQGw==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 17:25:13】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-15 17:27:42;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=Gka6aSyWLKyWrb8ohFZoK1blrQJXnHW1ncH60N3vwYtc9NNPSp9be/9ss7ZVpADRNEDEdYHyryG/hbI7YBKIVyh6jj7Yw8dJ4ofeEHHo/DswV4O1Q4Ljeq2g+H/bzhnev/eQOqS9I2JrNpPXjbvw3899yeIYTnIF7b7RyJ+/TKwvaW4Z2rSuXlF3fyLPUAbvmGSkFFTaiVCvwy7zGWsJnhsfWePilNxPWfZp7IMxn6eqc96Ia3eWfK4JeFlBORCsMLeDD6PMqE2ISX9mwK+hIN2Pg3kNMPfvW/4jT2s4iSR52/Go3OJxP9uKWF6H4p37zBe+kAuGKAuuxlrDytV6/A==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 17:31:01】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-15 17:33:31;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=XpuPKxy/yrh9jXMWOP85E1Mw2rgQbrF5eAngZY1i/LtcE/8YNdOSpu5qls3NHs2RZ/8PanXvkpA63mAGJ656McvpLyiwX3uxZn5BfJWxf8a9IsLebNHBZcy3c6WJqo73b9CootKmuNl6qMCeCJaqXRvAzo2JWLjEOak7fiPVTkdYuEF85GZAdtgVd5kdoE1e8Kkfi0UX0tF7KGEfYdvLzDzoGIsmKLrgx6454FrT579rZKCUFUq5CBGI1SnRtEQ+hwVhVCPU1TWMjATsF94S4/WfCSfuN71pdwuD6nBkY87JUnjPmfv62OpUz+XHrOOMWdQyfEWRmxTIkMlO1f29wA==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 17:44:04】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-15 17:46:34;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=Roi6Oy6TMrmPTyA2A+chb1Z+JGtrkXz/6GDJdH3HOlxpk6dWjoFR8hVyspTRdaVMF7v2qD27tdc6cVdzlT7iQOuYSMTuc+8+AAOZ7jI5l9Jpfbz7JmqU8svPEVD6Hsyi4IYK6uIArc5kihuEiGrfFaGD2z3iC1UuZy7jnPUMXNk2dQSDkGrKVzrb7fjztf4BENCJiASk4RLeR+t3qptddpQeumdvQpSdRnXwG/P6Jj+1mo+Sqdd3Di6HYPI/z12sUaFD31txVdfXLBTg0QL3h3SJgsrppS88kFSz1yJXFpoqk+5d2onY4WYOmyZvab+eXy2BQ5TfnMj03ieTciLqYA==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 18:41:01】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-15 18:43:31;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=DB2BfgUnHKJl7zCAkHtJQ/GQzJtIs6RZq0kazfYuAS+E70ZMRcTJB+pkaHjaqUHzPQuHYICrpjKbpTJVQUCuOe0rlo0Na3MxP4t7qNZRv8w5JfYqOGoMreFMvYFfuBAropKH7kH1mxFpsdNwvDPrtvkrmGtvUFL9jLSmdMATcoBWMHL9ea0YHUQ2NQKnmOY/tA85uRxrhIDH/e9rmf1IDqsVsbdQB3zEW0mF9rhLEDu2DRJC1wnOjAIMGt4lGpeWAoKEbtgNHRrz0E8S2mxa4NmP8J0GjDBfev7NCCOMoTdzP9HYpci/sJWvucy+IZVbkcoY6xYfr/6sbWKWMuSKZg==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 19:20:40】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-15 19:23:10;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=V76s1rhKtx8hOoTLFwNxOg+UzbEMzJJ0tqlbwZmMVZGyV8TYsa2aeXj9TGhZuEGOqj0llLQR67gED24Bgs95v5KWAanrH2lMQ+Q8IDPazkb5qItFM9dJVkbnmigQXQGIBZVPHESI4p6valQLlS2RdhQuBBmErYtRt8To7S5+VH7/nrtd8cST16W6HTY9Mm4sBRRY5FyEPSMrAs+HLvwAKSCGrxUT1lLtLN8e9a7zBoV2abhHaNTGn8Dkuu2ipPDUyIYcqObfEU7jox7wG5z9nnNNnzrIRJZDOH4KFeVm8+hhiraE4fvErSZFOlg1EmQH9sy4BWrxyQv9X2k9yKoRMQ==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-15 20:42:47】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-15 20:45:17;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=R8g+1Kl6fpQEJ2awouAuuONv5SZelkfRogMWx7JREqIo/NHjC/gzbAOqPNGUyKAgtla208Msk+MT4NuJD91z9sEy860cl/RnGp+ccOR4nf8+KJhOrFPRmLWWIwC2HJMRrKnoutgqAad85M6P7XvIR12XqGdhO5qwHt2vcGvBpClIpJWf44cTJWUdEW3o8WwA30BOr/ZvtcnzK3lLS4jYPPJT8CoiMBbOGek0zC7z3NWly4aQSO9PO8MRyDOX+p6UCsYM3zh06vY5LQ36yHhi8F0LTK7MxyPgLQhu832X42HC/d5b7fguNao7k2x+5HhEszFA6qRyqPa0vu2q7cHGwg==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-16 01:24:21】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350205963471;body=我是测试数据;notify_time=2017-05-16 01:26:50;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=280548178865666010;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 15:58:50;version=1.0;point_amount=0.00;sign=P/n85Vsp4io9UMMJhad+Hmj4xhGDxbTqZc8C1vE9Cv1J5tDlP4Ghhv33kI7r7MyM7MZUkcHnedDutfeeBKi+FeJ8fEIw7jRwInr3RVjFjN/dE8Cn/UQwls/+RXSQupoFdywqvJLm5oZW375GVBtGpyuDkoQrISYyNAMKlE3AfyD6CI3XyR94Hrd+X1Zvk6M/19QqTg9K7RbYRLxW5++olm8ht6iURwKdVcQEJAci6FVubYuFFwEpIq8i8KdcmI62PPJGO5hTSvPtXaqLBqyV4YP8VFWuPO56goOcnkx90z1HtaH0bBkBITLC44nZKuh0DbPg2AZ9JJcKO1JvHttE2A==;gmt_create=2017-05-15 15:58:50;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=246951f4c0d151a9fa18bd646e91b49ipa;seller_email=13828828962@163.com
+
+
+【支付宝web】\r\n【2017-05-16 02:43:57】
+当前地址:http://appapi1.fanerweb.com:80/api/Payment/ReceiveAilpayNotice
+触发地址:
+GET:
+POST:;total_amount=0.01;buyer_id=2088802870755356;trade_no=2017051521001004350206098696;body=我是测试数据;notify_time=2017-05-16 02:46:26;subject=App支付测试DoNet;sign_type=RSA2;buyer_logon_id=176****5930;auth_app_id=2017051107199200;charset=utf-8;notify_type=trade_status_sync;invoice_amount=0.01;out_trade_no=930548183820749036;trade_status=TRADE_SUCCESS;gmt_payment=2017-05-15 17:19:42;version=1.0;point_amount=0.00;sign=L5BfUi+OVw9XyEFnOLhiqjpy5lS6J1OA/8yZocRQ3n4jujfoYLoYq8wvHZaVOHkIET7h1T7E8sYx36EfGtGtXKpugw1/F4vkW4QiP4dVSehKtUgqbSw0vKkcbg2qZRHHb3fyWbVzb6ijdUxJ1aN7yfns6fba+BB1yLhVlQgMcsBEeFAyxMd0B+ELUvrtSvr3pds2QM/bLTPHiNYeAHh09wXdXIaHZ5x6xyO4a1LUekrnSZfetv9wMywcloL+cwB4HFb1km7U/BaDj5ycdMPQZoqRuBJ9GjpiFw1RKzzkFVX88lY5kHX8V9jxj55NfmwPO2+G83pXPKFlIchEDfgS/w==;gmt_create=2017-05-15 17:19:42;buyer_pay_amount=0.01;receipt_amount=0.01;fund_bill_list=[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}];app_id=2017051107199200;seller_id=2088521498110852;notify_id=b6c367cfa0b8f674d6fdb168acb0b26ipa;seller_email=13828828962@163.com
+
+
